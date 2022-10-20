@@ -1,0 +1,184 @@
+/* GLOBAL */
+body { margin:0px; padding:0px; }
+h1 { margin:0px; }
+h2 { margin:0px; }
+h3 { margin:0px; }
+h4 { margin:0px; }
+h5 { margin:0px; }
+h6 { margin:0px; }
+
+/* レイアウト上の逃げで入れてみる(20120816 KWatanabe) */
+/* TD { vertical-align:top; text-align:left; } */
+/* TD { vertical-align:top; } */
+
+/* IE7のズーム対策(2010/10/15追加) */
+*		{ zoom:normal; }
+span,label	{ zoom:1; }
+
+/* Page-Layout */
+.pglo_hereis		{ width:740px; margin:2px 0px 15px 5px; vertical-align:top; color:#606060; font:normal 70%/120% 'MS UI Gothic',Osaka,sans-serif; }
+.pglo_all		{ width:750px; background:url(/assets/images/images_general/bg_pgseparate.gif); }
+.pglo_menu		{ float:left; width:170px; padding-bottom:30px; background-image:url(/assets/images/images_general/bg_pgseparate.gif); }
+.pglo_contents		{ float:left; width:550px; margin-left:30px; }
+.pglo_contents_main	{ float:left; width:410px; padding-top:0px; }
+.pglo_contents_sub	{ float:left; width:120px; margin-left:20px; }
+
+/* TEXT-HereIs */
+.hereis_h	{ margin:0px; padding-left:10px; color:#606060; font:normal 70%/120% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+.hereis_h1	{ margin:0px; padding-left:10px; color:#606060; font:normal 70%/120% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+.hereis		{ padding:2px 0px 0px 5px; vertical-align:top; color:#606060; font:normal 70%/120% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+.contact	{ text-align:right; vertical-align:top; color:#606060; font:normal 65%/120% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+
+/* TEXT-Link-red_10 */
+.red_10		{ color:#404040; text-decoration:none; font:10px/10px 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.red_10		a:link		{ color:#B00000; text-decoration:none; }
+.red_10		a:active	{ color:#B00000; text-decoration:underline; }
+.red_10		a:visited	{ color:#800000; text-decoration:none; }
+.red_10		a:hover		{ color:#ff0000; text-decoration:underline; }
+
+/* TEXT-Link-LeftMenu */
+.linkmn		a:link		{ color:#606060; text-decoration:none; font-family:Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.linkmn		a:active	{ color:#B00000; font-family:Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.linkmn		a:visited	{ color:#808080; text-decoration:none; font-family:Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.linkmn		a:hover		{ color:#B00000; text-decoration:underline; font-family:Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+
+/* TEXT-Link-LeftMenu2 */
+.linkmn2	a:link		{ color:#606060; text-decoration:none; font:normal 10px/12px Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.linkmn2	a:visited	{ color:#606060; text-decoration:none; font:normal 10px/12px Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.linkmn2	a:hover		{ color:#B00000; text-decoration:underline; font:normal 10px/12px Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.linkmn2	a:active	{ color:#B00000; text-decoration:none; font:normal 10px/12px Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+
+/* NEW Left-Menu */
+h1.lm_h1	{ height:35px; padding-top:5px; background:url(/assets/images/images_general/lm_title_bgimg.gif) no-repeat; color:#fff; text-align:center; font:bold 12px/13px 'MS UI Gothic',Osaka,sans-serif; }
+.lm_title_w	{ color:#fff; text-align:center; vertical-align:middle; background:#C0C0C0 url(/assets/images/images_general/lm_title_bgimg.gif) no-repeat; font:bold 12px/110% 'MS UI Gothic',Osaka,sans-serif; }
+.lm_ttl_12px	{ color:#fff; font:bold 75%/110% 'MS UI Gothic',Osaka,sans-serif; }
+.lm_ttl_w075	{ color:#fff; font:bold 75%/110% 'MS UI Gothic',Osaka,sans-serif; }
+.lm_mida_w070	{ color:#808080; font:normal 70%/110% 'MS UI Gothic',Osaka,sans-serif; }
+
+/* TEXT-Percentage */
+.p100_200	{ color:#404040; font:normal 100%/200% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p100_180	{ color:#404040; font:normal 100%/180% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p100_150	{ color:#404040; font:normal 100%/150% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p100_130	{ color:#404040; font:normal 100%/130% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p100_120	{ color:#404040; font:normal 100%/120% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p100_110	{ color:#404040; font:normal 100%/110% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p090_200	{ color:#404040; font:normal 92%/200% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p090_180	{ color:#404040; font:normal 92%/180% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p090_150	{ color:#404040; font:normal 92%/150% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p090_130	{ color:#404040; font:normal 92%/130% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p090_120	{ color:#404040; font:normal 92%/120% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p090_110	{ color:#404040; font:normal 92%/110% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_200	{ color:#404040; font:normal 85%/200% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_180	{ color:#404040; font:normal 85%/180% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_150	{ color:#404040; font:normal 85%/150% Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_130	{ color:#404040; font:normal 85%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_120	{ color:#404040; font:normal 85%/120% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_110	{ color:#404040; font:normal 85%/110% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p080_200	{ color:#404040; font:normal 80%/200% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p080_180	{ color:#404040; font:normal 80%/180% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p080_150	{ color:#404040; font:normal 80%/150% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p080_130	{ color:#404040; font:normal 80%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p080_120	{ color:#404040; font:normal 80%/120% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p080_110	{ color:#404040; font:normal 80%/110% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_200	{ color:#404040; font:normal 75%/200% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_180	{ color:#404040; font:normal 75%/180% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_150	{ color:#404040; font:normal 75%/150% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_130	{ color:#404040; font:normal 75%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_120	{ color:#404040; font:normal 75%/120% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_110	{ color:#404040; font:normal 75%/110% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_200	{ color:#404040; font:normal 70%/200% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_180	{ color:#404040; font:normal 70%/180% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_150	{ color:#404040; font:normal 70%/150% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_130	{ color:#404040; font:normal 70%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_120	{ color:#404040; font:normal 70%/120% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_115	{ color:#404040; font:normal 70%/115% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p070_110	{ color:#404040; font:normal 70%/110% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p065_200	{ color:#404040; font:normal 65%/200% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p065_180	{ color:#404040; font:normal 65%/180% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p065_150	{ color:#404040; font:normal 65%/150% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p065_130	{ color:#404040; font:normal 65%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p065_120	{ color:#404040; font:normal 65%/120% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p065_110	{ color:#404040; font:normal 65%/110% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+
+/* TEXT-Percentage-MS UI Gothic */
+.p085_200_ui	{ color:#404040; font:normal 85%/200% 'MS UI Gothic',Osaka,sans-serif; }
+.p085_180_ui	{ color:#404040; font:normal 85%/180% 'MS UI Gothic',Osaka,sans-serif; }
+.p085_150_ui	{ color:#404040; font:normal 85%/150% 'MS UI Gothic',Osaka,sans-serif; }
+.p085_130_ui	{ color:#404040; font:normal 85%/130% 'MS UI Gothic',Osaka,sans-serif; }
+.p080_130_ui	{ color:#404040; font:normal 80%/130% 'MS UI Gothic',Osaka,sans-serif; }
+.p075_200_ui	{ color:#404040; font:normal 75%/200% 'MS UI Gothic',Osaka,sans-serif; }
+.p075_180_ui	{ color:#404040; font:normal 75%/180% 'MS UI Gothic',Osaka,sans-serif; }
+.p075_150_ui	{ color:#404040; font:normal 75%/150% 'MS UI Gothic',Osaka,sans-serif; }
+.p075_130_ui	{ color:#404040; font:normal 75%/130% 'MS UI Gothic',Osaka,sans-serif; }
+.p075_120_ui	{ color:#404040; font:normal 75%/120% 'MS UI Gothic',Osaka,sans-serif; }
+.p075_110_ui	{ color:#404040; font:normal 75%/110% 'MS UI Gothic',Osaka,sans-serif; }
+.p070_120_ui	{ color:#404040; font:normal 70%/120% 'MS UI Gothic',Osaka,sans-serif; }
+
+/* ONLY-font-Family */
+.ffml_msp	{ font-family:'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.ffml_msui	{ font-family:'MS UI Gothic',Osaka,sans-serif; }
+.ffml_ms	{ font-family:"ＭＳ ゴシック",Osaka,sans-serif; }
+.only_ff	{ font-family:'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+
+/* VersionUp-Function */
+.prd_vup1	{ background:url(/assets/images/images_general/new.gif) no-repeat; padding:3px 0px 8px 67px; color:#404040; font:bold 85%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.prd_vup2	{ background:url(/assets/images/images_general/new.gif) no-repeat; padding:4px 0px 8px 67px; color:#606060; font:normal 75%/150% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.prd_vup3	{ background:url(/assets/images/images_general/new.gif) no-repeat; padding:1px 0px 8px 67px; color:#606060; font:bold 100%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.prd_vup4	{ background:url(/assets/images/images_general/new.gif) no-repeat; padding:1px 0px 4px 67px; color:#606060; font:bold 100%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.prd_vup_nonew	{ padding:3px 0px 8px 3px; color:#404040; font:bold 85%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+
+/* HowToSeeTheMovie */
+.howto_wm	{ padding-top:3px; text-align:right; color:#cbd0e9; font:normal 12px/14px 'MS UI Gothic',Osaka,sans-serif; }
+.howto_wm	a:link		{ color:#cbd0e9; text-decoration:none; }
+.howto_wm	a:active	{ color:#fff; text-decoration:none; }
+.howto_wm	a:visited	{ color:#cbd0e9; text-decoration:none; }
+.howto_wm	a:hover		{ color:#fff; text-decoration:underline; }
+
+/* TITLE2_15 */
+.title2_15 {
+	padding:1px 0px 0px 3px;
+	text-align:left;
+	color:#606060;
+	font:75%/130% 'MS UI Gothic',Osaka,sans-serif;
+}
+
+
+/* 全般的な特定の処理 */
+span.fs80per	{ font-size:80%; }
+
+
+/* 2012-08-22 */
+.plusborder th,
+.plusborder td	{ border:1px #D0D0D0 solid; padding:3px 2px; }
+
+.plustspace th,
+.plustspace td	{ padding:4px 3px; }
+
+
+/* オレンジのエラーメッセージ（サポートポータルと共通） */
+
+.error_message {
+	text-align:center;
+	width:100%;
+	margin:0px auto 20px;
+	padding:13px 5px 10px 5px;
+	border:0px #c00 solid;
+	background-color:#e07900;
+	border-radius:12px;
+	font-weight:bold;
+	font-size:15px;
+	line-height:25px;
+	color:#fff;
+	font-family:Meiryo;
+}
+.error_message span {
+	font-size:18px;
+	line-height:24px;
+	font-family:Meiryo;
+}
+
+
+.error_message a:link { color:#fff; text-decoration:underline; }
+.error_message a:visited { color:#fff; text-decoration:underline; }
+.error_message a:hover { color:#ff0; text-decoration:underline; }
+.error_message a:active { color:#ff0; text-decoration:underline; }

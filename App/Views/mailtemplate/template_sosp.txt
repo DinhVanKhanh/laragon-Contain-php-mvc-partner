@@ -1,0 +1,14 @@
+【SOSP】 ご意見・ご要望をいただきました。
+
+[SOSP-ID] $id
+
+[会員名] $syamei
+
+[ご担当者名] $tant
+
+[e-mail] $email
+
+[カテゴリ] $cat
+
+[コメント欄]
+$comment

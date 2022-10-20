@@ -1,0 +1,8 @@
+[会員ID] $id
+
+[会員名] $name
+
+[e-mail] $email
+
+[文章]
+$comment

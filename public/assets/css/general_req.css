@@ -1,0 +1,115 @@
+﻿/* GLOBAL */
+body { margin:0px; padding:0px; }
+h1 { margin:0px; }
+h2 { margin:0px; }
+h3 { margin:0px; }
+h4 { margin:0px; }
+h5 { margin:0px; }
+h6 { margin:0px; }
+
+/* レイアウト上の逃げで入れてみる(20120816 KWatanabe) */
+/* TD { vertical-align:top; text-align:left; } */
+/* TD { vertical-align:top; } */
+
+/* IE7のズーム対策(2010/10/15追加) */
+* { zoom:normal; }
+span,label	{ zoom:1; }
+
+/* TEXT-Link */
+a {color:#2ba3a3; text-decoration:none;}
+a:hover {color:#ad9845; text-decoration:underline;}
+
+/* TEXT-Percentage */
+.p085_180	{ color:#404040; font:normal 85%/180% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_150	{ color:#404040; font:normal 85%/150% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p085_130	{ color:#404040; font:normal 85%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+.p075_130	{ color:#404040; font:normal 75%/130% 'ＭＳ Ｐゴシック',Osaka,sans-serif; }
+
+/* LIST-GENERAL-01 */
+TH.list_g1nl	{ background-color:#F0F0F0;  padding:4px; color:#202020; border:1px #C0C0C0 solid; text-align:left; font:normal 75%/130% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+TD.list_g1	{ background-color:#FFFFFF; padding:4px; color:#202020; border:1px #C0C0C0 solid; vertical-align:top; font:normal 75%/130% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+TD.list_g1w	{ background-color:#FFFFFF; padding:4px; color:#202020; border:1px #C0C0C0 solid; vertical-align:top; font:normal 75%/130% 'Meiryo UI','MS UI Gothic',Osaka,sans-serif; }
+
+/* LIST-GENERAL-01-fs85per */
+TH.list_g1_85	{ background-color:#F0F0F0;  padding:4px; color:#404040; border:1px #C0C0C0 solid; text-align:center; font:85%/140% 'Meiryo UI',Osaka,sans-serif; }
+TD.list_g1_85	{ background-color:#FFFFFF; padding:4px; color:#202020; border:1px #C0C0C0 solid; font:normal 85%/140% 'Meiryo UI',Osaka,sans-serif; }
+
+#pp-main {
+    /*border: solid 1px #bbb;
+    width: 510px;
+    height: 160px;
+    padding: 0.5em;
+    overflow: auto;
+    background-color:#fff;*/
+}
+#pp-main h1 {
+    margin-bottom:10px;
+    padding:2px 0px;
+    border-bottom:1px #888888 dotted;
+    font-size:100%;
+    line-height:140%;
+}
+#pp-main h2 {
+    margin-top:10px;
+    color:#404040;
+    font-size:100%;
+    padding-left:10px;
+    line-heigh:120%;
+    border-left:3px #bbbbbb solid;
+    border-bottom:1px #888888 dotted;
+}
+#pp-main h3 {
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size:90%;
+    line-height:140%;
+}
+#pp-main p {
+    margin-top:0px;
+    margin-bottom:1em;
+    font-size:80%;
+    line-height:140%;
+}
+#pp-main ul {
+    list-style-type:disc;
+    padding-left:2em;
+    font-size:80%;
+    line-height:140%;
+    margin-bottom:1em;
+}
+#pp-main ul li {
+    list-style-type:disc;
+    margin-bottom:0em;
+}
+#pp-main ol {
+    list-style-type:decimal;
+    padding-left:3em;
+    font-size:80%;
+    line-height:140%;
+    margin-bottom:1em;
+}
+#pp-main ol li {
+    list-style-type:decimal;
+    margin-bottom:0em;
+}
+#form-submit {
+    text-align:center;
+    margin-top:15px;
+}
+#form-submit input, #form-submit input:hover {
+    margin:10px;
+    width:500px;
+    height:50px;
+    color:#fff;
+    font-weight:bold;
+    font-size:18px;
+    background-color:#ff8800;
+    border:0px;
+    border-radius:5px;
+    cursor:pointer;
+}
+#form-submit input:hover {background-color:#ff6600;}
+
+iframe {
+    border:1px #888888 solid;
+}

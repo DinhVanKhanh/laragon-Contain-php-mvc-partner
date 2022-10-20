@@ -1,0 +1,108 @@
+/* ‹¤’Ê */
+
+FORM { margin:0px; padding:0px; }
+
+
+/* SORIMACHI-WebSite Link */
+
+.link_sg			{ color:#808080; text-decoration:none; text-align:left; padding:2px 0px 0px 10px; font:65% verdana,sans-serif; }
+.link_sg	A:link		{ color:#808080; text-decoration:none; }
+.link_sg	A:visited	{ color:#808080; text-decoration:none; }
+.link_sg	A:hover		{ color:#0000FF; text-decoration:underline; }
+.link_sg	A:active	{ color:#0000FF; text-decoration:none; }
+
+
+/* HEADER-Link */
+
+.link_header			{ color:#404040; text-decoration:none; font:12px/18px MS UI Gothic,Osaka,sans-serif; }
+.link_header	A:link		{ color:#0000D0; text-decoration:none; }
+.link_header	A:visited	{ color:#0000A0; text-decoration:none; }
+.link_header	A:hover		{ color:#0000FF; text-decoration:underline; }
+.link_header	A:active	{ color:#0000FF; text-decoration:none; }
+
+
+/* FOOTER */
+
+.partner_footer				{ color:#606060; text-align:center; padding:5px 0px 10px 0px; border-top:1px #B0B0B0 solid; color:#606060; text-decoration:none; font:70% verdana,sans-serif; } 
+.partner_footer		A:link		{ color:#606060; text-decoration:none; }
+.partner_footer		A:visited	{ color:#606060; text-decoration:none; }
+.partner_footer		A:hover		{ color:#0000FF; text-decoration:underline; }
+.partner_footer		A:active	{ color:#0000FF; text-decoration:none; }
+
+
+/* GENERAL */
+
+.p075_130_ui	{ font:75%/130% MS UI Gothic,Osaka,sans-serif; }
+
+
+/* LIST-PARTNER-01(SAAGê—p) */
+
+TABLE.list_partner_g1	{ border-collapse:collapse; }
+TH.list_partner_g1	{ background-color:#FFCCCC; padding:4px; border-bottom:1px #CF7C7C solid; border-right:1px #CF7C7C solid; color:#503030; font:bold 75%/130% MS UI Gothic,Osaka,sans-serif; }
+TH.list_partner_g1l	{ background-color:#FFCCCC; padding:4px; border-bottom:1px #CF7C7C solid; border-right:1px #CF7C7C solid; text-align:left; color:#503030; font:bold 75%/130% MS UI Gothic,Osaka,sans-serif; }
+TH.list_partner_g1n	{ background-color:#FFCCCC; padding:4px; border-bottom:1px #CF7C7C solid; border-right:1px #CF7C7C solid; color:#503030; font:normal 75%/130% MS UI Gothic,Osaka,sans-serif; }
+TH.list_partner_g1nl	{ background-color:#FFCCCC; padding:4px; border-bottom:1px #CF7C7C solid; border-right:1px #CF7C7C solid; text-align:left; color:#503030; font:normal 75%/130% MS UI Gothic,Osaka,sans-serif; }
+
+TD.list_partner_title	{ background-color:#707070; padding:6px 5px 4px 7px; vertical-align:top; border-bottom:1px #404040 solid; border-right:1px #404040 solid; color:#FFFFFF; font:75%/130% MS UI Gothic,Osaka,sans-serif; }
+
+TD.list_partner_g1cm	{ background-color:#FFCCCC; padding:4px; text-align:center; vertical-align:middle; border-bottom:1px #E3B9B9 solid; border-right:1px #E3B9B9 solid; color:#304050; font:75%/130% MS UI Gothic,Osaka,sans-serif; }
+
+DIV.list_partner_caut	{ padding:0px 0px 3px 14px; text-indent:-14px; vertical-align:top; }
+
+TD.list_partner_g1c	{ background-color:#F0F0F0; padding:4px; text-align:center; border-bottom:1px #C0C0B8 solid; border-right:1px #C0C0B8 solid; color:#404040; font:75%/130% "‚l‚r ‚oƒSƒVƒbƒN",Osaka,sans-serif; }
+
+
+/* INDEXƒy[ƒW—p‘i‹ƒ|ƒCƒ“ƒg */
+
+.index_ptmida		{ color:#EB0000; margin-top:20px; padding:0px 0px 3px 15px; border-bottom:1px #C0C0C0 solid; text-indent:-15px; font:bold 85%/130% MS UI Gothic,Osaka,sans-serif; }
+.index_ptmida_t0	/* MarginTop=0 */
+			{ color:#EB0000; padding:0px 0px 3px 15px; border-bottom:1px #C0C0C0 solid; text-indent:-15px; font:bold 85%/130% MS UI Gothic,Osaka,sans-serif; }
+.index_pttxt		{ margin:3px 0px 0px 15px; font:80%/150% MS UI Gothic,Osaka,sans-serif; }
+.index_pttxt1		{ margin:3px 0px 0px 5px; font:85%/150% MS UI Gothic,Osaka,sans-serif; }
+
+
+/* ƒgƒbƒvƒy[ƒW—pƒjƒ…[ƒXƒŠƒŠ[ƒX */
+
+.home_midaimg		{ padding:0px 0px 2px 5px; border-bottom:1px #C0C0C0 dotted; }
+
+.home_midatxt		{ margin:3px 0px 20px 25px; font:85%/150% MS UI Gothic,Osaka,sans-serif; }
+
+
+/* ƒgƒbƒvƒy[ƒW—pƒjƒ…[ƒXƒŠƒŠ[ƒX */
+
+.home_news_date		{ color:#808080; vertical-align:middle; background-color:#F0F0F0; padding-left:8px; font:75%/120% arial,sans-serif; }
+.home_news		{ font:75%/120% MS UI Gothic,Osaka,sans-serif; }
+UL			{ list-style-type:none; margin:0; padding:0; }
+.list-date		{ clear:both; display:block; color:#808080; background-color:#F0F0F0; margin:0; padding:2px; font:normal 70%/120% arial,sans-serif; }
+.list-text		{ clear:both; display:block; margin-bottom:5px; padding:0 8px 0 2px; font:normal 75%/120% MS UI Gothic,Osaka,sans-serif; }
+
+
+
+/* ƒLƒƒƒ“ƒy[ƒ“î•ñ */
+
+.blg_list	{ margin:40px 5px; border:3px #F8F8F8 solid; }
+.blg_list_title	{ background-color:#FFFFFF; padding:5px 10px; text-align:center; border-bottom:1px #E0E0E0 dotted; color:#808080; font:75%/130% Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }
+.blg_list_theme	{ background-color:#FFFFFF; padding:5px 10px; text-align:left; border-bottom:1px #E0E0E0 dotted; color:#808080; font:70%/130% Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }
+
+.blg_list_new	{ margin-left:1ex; color:#FF3300; font-size:80%; font-family:Verdana; font-weight:bold; }
+
+.blg_top	{ width:550px; margin-top:2em; background:url(/partner/saag/images/column_top.gif) no-repeat; text-align:center; color:#606060; }
+.blg_top_txt	{ padding:1.5em 30px 1ex 30px; font:bold 92%/130% Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }	
+.blg_top_new	{ margin-right:0.5ex; padding:0 5px; font-size:80%; background-color:#FF3300; color:#FFFFFF; font-family:Verdana; font-weight:bold; }
+
+.blg_body	{ width:550px; background:url(/partner/saag/images/column_body.gif) repeat-y; }
+.blg_body_txt	{ padding:1em 30px; font:80%/200% Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }
+.blg_body_list	{ padding:0.5em 30px 0.5em 50px; text-indent:-1em; font:80%/150% Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }
+.blg_body_img	{ padding:1em 30px; }
+
+.blg_btm	{ width:550px; background:url(/partner/saag/images/column_bottom.gif) 0 bottom no-repeat; text-align:right; color:#A0A0A0; }
+.blg_btm_txt	{ padding:1em 20px; font:70%/130% Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }
+
+.blg_toheader	{ text-align:right; margin:1ex 2em 3em 0; font:11px/14px Meiryo,'ƒƒCƒŠƒI','Lucida Grande',Verdana,'Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','‚l‚r ‚oƒSƒVƒbƒN',osaka,sans-serif; }
+
+
+SPAN.saag	{ color:#EB0000; }
+
+
+/* PARTNER-INDEX */
+#iframe iframe {border:none;height:0;padding:0}

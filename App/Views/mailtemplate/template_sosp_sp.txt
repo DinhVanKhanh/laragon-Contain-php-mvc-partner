@@ -1,0 +1,17 @@
+下記の内容で販促物請求のお問い合わせがありました。
+
+[SOSP-ID] 1$id
+
+[会員名] $syamei
+
+[ご担当者名] $tant
+
+[住所] $address
+
+[電話番号] $tel
+
+[e-mail] $email
+
+■カタログ
+$comment
+

@@ -1,0 +1,137 @@
+:root {
+    --main-color: #808000;
+    --border-color: #cccccc;
+}
+.main-color {
+    color: var(--main-color);
+}
+.header {
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+}
+.criteria-box,
+.select_area {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+.search-box {
+    display: flex;
+    flex-direction: row;
+}
+.select_area {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 2px; */
+    /* background-color: #fafafa; */
+    /* gap: 10px; */
+    padding: 1px;
+    width: 250px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 30px 2px 2px;
+    border: none;
+}
+.search-box {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0 20px 0;
+}
+.search-box > form {
+    width: 100%;
+}
+.search-box form > input {
+    /* width: 95.5%; */
+    width: 88%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* height: 29px; */
+    height: 95%;
+    font-size: 13px;
+}
+table,
+tr {
+    border: 1px solid grey;
+}
+tr,
+th,
+td {
+    padding: 10px;
+}
+tr,
+th,
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #80800040;
+    font-weight: bold;
+}
+#search_rs {
+    border: 1px solid grey;
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+/* #search_rs tbody>tr {
+    outline: 0.5px solid grey;
+} */
+#search_rs tbody tr > th {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    background: var(--main-color);
+}
+.pagination {
+    display: block;
+    margin-bottom: 75px;
+}
+.pagination > button {
+    padding: 10px;
+}
+.search-filter {
+    margin-bottom: 20px;
+}
+
+.title-back {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #808000, #606002) !important;
+    border: hidden;
+    box-shadow: 1px 1px rgb(1 20 30 / 50%);
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px;
+    float: right;
+}
+/* button[type="button"] {
+    background-color: #808000;
+} */
+.btn-pagination {
+    border: 1px solid var(--main-color); 
+    color:black; 
+    padding: 10px 15px 10px !important;
+    background-color: white;
+}
+.btn-pagination:hover, .btn-pagination:active, .btn-pagination:focus {
+    color: white;
+    background-color: var(--main-color);
+}
+.text-important {
+    font-weight: bold;
+    color: var(--main-color);
+}
+a:visited {
+    color: blue;
+}
+#btn_search {
+    background-color: var(--main-color);
+    font-size: 17px;
+    padding: 5px 20px 5px 20px!important;
+    float: right;
+}
