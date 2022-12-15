@@ -60,8 +60,10 @@ global $SORIMACHI_HOME_SSL;
 						</div>
 						<div class="id2" style="padding-top:1em;">
 							申請から承認・振込までを網羅した「経費ワンストップサービス」で、経理効率化の実現をサポートします。<BR>
+<!--
 							※詳しくはSBI ビジネス・ソリューションズ（株）のサイトをご覧ください。
 							<div style="margin:3px 0px;"><a href="<?= __EXWS_SBIBSKeihiBankIntro__ ?>" target="_blank"><img src="/assets/images/saag/btn_kbank_kbank1.gif" onMouseover="this.src='/assets/images/saag/btn_kbank_kbank2.gif'" onMouseout="this.src='/assets/images/saag/btn_kbank_kbank1.gif'" alt="" border="0"></a></div>
+-->
 						</div>
 						<div class="id1_2" style="margin-top:3em;">
 							<font color="#EB0000">◆</font>

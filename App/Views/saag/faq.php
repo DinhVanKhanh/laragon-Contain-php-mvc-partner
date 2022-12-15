@@ -26,25 +26,38 @@ global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL, $SERVER_DOWNLOAD_MEMBER, $SORIMACHI
 				</div>
 				<table class="table_solution" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
 					<tr>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/kakutei2020/" target="_blank">みんなの<BR>確定申告<br>令和2年分</a></td>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/etax2020/" target="_blank">みんなの<BR>電子申告<br>令和2年分</a></td>
+						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accstd22/" target="_blank">会計王22</a></td>
+						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accnet22/" target="_blank">会計王22 PRO</a></td>
+						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accnpo22/" target="_blank">会計王22<BR>NPO法人スタイル</a></td>
+						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accper22/" target="_blank">みんなの<BR>青色申告22</a></td>
+						<td align="center">&nbsp;</td>
 					</tr>
 					<tr>
-						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/kakutei2019/" target="_blank">みんなの<BR>確定申告<br>令和元年分</a></td>
-						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/etax2019/" target="_blank">みんなの<BR>電子申告<br>令和元年分</td>
+						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/psl22/" target="_blank">給料王22</a></td>
+						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/sal22/" target="_blank">販売王22</a></td>
+						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/spr22/" target="_blank">販売王22<BR>販売・仕入・在庫</a></td>
+						<td align="center">&nbsp;</td>
+						<td align="center">&nbsp;</td>
 					</tr>
 					<tr>
 						<td nowrap colspan="5" height="10"></td>
 					</tr>
 					<tr>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accstd21/" target="_blank">会計王21</a></td>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accnet21/" target="_blank">会計王21 PRO</a></td>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accnpo21/" target="_blank">会計王21<BR>NPO法人スタイル</a></td>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/acccar21/" target="_blank">会計王21<BR>介護事業所スタイル</a></td>
-						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accper21/" target="_blank">みんなの<BR>青色申告21</a></td>
+						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/kakutei2021/" target="_blank">みんなの<BR>確定申告<br>令和3年分</a></td>
+						<td class="list_saag_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/etax2021/" target="_blank">みんなの<BR>電子申告<br>令和3年分</a></td>
 					</tr>
 					<tr>
-						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/psl21/" target="_blank">給料王21</a></td>
+						<td nowrap colspan="5" height="10"></td>
+					</tr>
+					<tr>
+						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accstd21/" target="_blank">会計王21</a></td>
+						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accnet21/" target="_blank">会計王21 PRO</a></td>
+						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accnpo21/" target="_blank">会計王21<BR>NPO法人スタイル</a></td>
+						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/acccar21/" target="_blank">会計王21<BR>介護事業所スタイル</a></td>
+						<td class="list_g1cm" width="20%"><a href="https://member.sorimachi.co.jp/faq/accper21/" target="_blank">みんなの<BR>青色申告21</a></td>
+					</tr>
+					<tr>
+						<td class="list_g1cm"><a href="https://member.sorimachi.co.jp/faq/psl21/" target="_blank">給料王21</a></td>
 						<td align="center">&nbsp;</td>
 						<td align="center">&nbsp;</td>
 						<td align="center">&nbsp;</td>
@@ -62,9 +75,9 @@ global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL, $SERVER_DOWNLOAD_MEMBER, $SORIMACHI
 					</tr>
 					<tr>
 						<td class="list_g1cm"><a href="https://member.sorimachi.co.jp/faq/psl20/" target="_blank">給料王20</a></td>
-						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/sal20/" target="_blank">販売王20</a></td>
-						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/spr20/" target="_blank">販売王20<BR>販売・仕入・在庫</a></td>
-						<td class="list_saag_g1cm"><a href="https://member.sorimachi.co.jp/faq/scl20/" target="_blank">顧客王20</a></td>
+						<td class="list_g1cm"><a href="https://member.sorimachi.co.jp/faq/sal20/" target="_blank">販売王20</a></td>
+						<td class="list_g1cm"><a href="https://member.sorimachi.co.jp/faq/spr20/" target="_blank">販売王20<BR>販売・仕入・在庫</a></td>
+						<td class="list_g1cm"><a href="https://member.sorimachi.co.jp/faq/scl20/" target="_blank">顧客王20</a></td>
 						<td align="center">&nbsp;</td>
 					</tr>
 					<tr>

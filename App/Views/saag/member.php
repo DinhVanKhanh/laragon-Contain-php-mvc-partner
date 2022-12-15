@@ -34,6 +34,11 @@ global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL;
 				<div>
 					<h2 class="title-parent">TOPICS</h2>
 				</div>
+				<div style="width:100%; margin:10px auto 20px;">
+					<a href="/partner/saag/member/download.php#nyukai-pack"><img class="pic" width="100%" src="/assets/images/nyukai_pack_saag.png"></a>
+<br>※製品ダウンロード方法については [ <a href="./about.php">会員サイトの使い方</a> ] ページをご覧ください。
+				</div>
+
 				<div style="width:100%; margin:10px auto">
 					<a href="javascript:PageJump('login_jhsn');"><img class="pic" width="100%" src="/assets/images/year/2018/11/member_img_05.jpg"></a>
 				</div>
@@ -68,17 +73,17 @@ global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL;
 
 				<div class="row" class="pc">
 					<div class="index_ptmida">
-						<h3>最新サービスパック一覧</h3><a href="http://support.sorimachi.co.jp/download-s/sp" class="btn_read_more pc" target="_blank"><button>≫ぺージを見る</button></a>
+						<h3>製品サポート情報</h3><a href="https://member.sorimachi.co.jp/" class="btn_read_more pc" target="_blank"><button>≫ぺージを見る</button></a>
 					</div>
-					<div class="index_pttxt">会計王シリーズの最新のサービスパックをダウンロードできます。ソフトをインストールしているパソコンでダウンロードしてお使いください。</div>
-					<a href="http://support.sorimachi.co.jp/download-s/sp" class="btn_read_more sp" target="_blank"><button>≫ぺージを見る</button></a></button>
+					<div class="index_pttxt">会計王シリーズの最新のサポート＆サービスをご案内しております。サービスパックはこちらのページからご利用ください。</div>
+					<a href="https://member.sorimachi.co.jp/" class="btn_read_more sp" target="_blank"><button>≫ぺージを見る</button></a></button>
 				</div>
 
 				<div class="row">
 					<div class="index_ptmida">
 						<h3>製品Ｑ＆Ａ</h3><a href="/partner/saag/member/faq.php" class="btn_read_more pc" target="_blank"><button>≫ぺージを見る</button></a>
 					</div>
-					<div class="index_pttxt">ソリマチ製品のQ&amp;A集を製品別にご用意して(おります。</div>
+					<div class="index_pttxt">ソリマチ製品のＱ＆Ａ集を製品別にご用意しております。</div>
 					<a href="/partner/saag/member/faq.php" class="btn_read_more sp" target="_blank"><button>≫ぺージを見る</button></a>
 				</div>
 
@@ -159,17 +164,11 @@ global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL;
 						<div style="text-align:center; font-size:25px; font-weight:bold; margin-bottom:15px">ソリマチ公式オンラインショップ</div>
 						<div class="index_pttxt">いろいろな製品をご注文いただける会員様専用オンラインショッピングサイトです。
 							<div style="background:url('/assets/images/year/2018/11/icon_01.jpg') no-repeat; background-position:left center; padding-left:20px"><b>対象となる製品</b></div>
-							<div class="index_pttxt">パッケージ製品・ネットワーク製品・サプライ用紙・ユースウェア製品・バージョンアップ製品・グレードアップ製品・保守サービス</div>
+							<div class="index_pttxt">　　パッケージ製品／ネットワーク製品／サプライ用紙／<br>　　バージョンアップ製品／グレードアップ製品</div>
 							<div style="background:url('/assets/images/year/2018/11/icon_01.jpg') no-repeat; background-position:left center; padding-left:20px">
-								<a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/apply/sgonlineshop_rules.pdf" target="_blank"><b>利用規約</b></a> ／
-								<a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/apply/sgonlineshop_appl.pdf" target="_blank"><b>ご利用申込書</b></a><b>（PDF)</b>
-							</div>
-							<div class="index_pttxt">
-								お申込に当たっては、必ず「<a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/apply/sgonlineshop_rules.pdf" target="_blank">利用規約</a>」の内容をご確認ください。<br>
-								「ご利用申込書」をダウンロードの上、必要事項をご記入いただき、FAXにてお申込みください。パートナー事務局よりID・パスワードおよび利用開始日を連絡いたします。<br>
-								<font color="#E00000">ユーザー様用ID・パスワード発行画面より利用申込みをされた場合、SAAG会員様用価格ではご購入いただけませんのでご注意ください。</font><br>
-							</div>
+								<a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/apply/sgonlineshop_rules.pdf" target="_blank"><b>ソリマチ公式オンラインショップ利用規約</b></a><b>（PDF)</b>
 						</div>
+<br>※公式オンラインショップの利用方法については [ <a href="./about.php">会員サイトの使い方</a> ] ページをご覧ください。
 					</div>
 				</div>
 			</section>

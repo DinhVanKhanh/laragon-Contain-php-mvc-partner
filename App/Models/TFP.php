@@ -69,7 +69,7 @@ class TFP extends \Core\Model
 		curl_close($curl);
 		return ($err) ? "Error #:" . $err : $response;
 	}
-
+	
 	public static function GetListByField($res, &$listData, $field, $parr = "")
 	{
 		if (($field == "error" || $field == "err_msg") &&
@@ -123,14 +123,14 @@ class TFP extends \Core\Model
 		$isArray = (is_array($fields)) ? true : false;
 		$str = ($isArray) ? implode(",", $fields) : $fields;
 		$arr = (!$isArray && strpos($fields, ",") !== false) ? explode(",", str_replace(" ", "", $fields)) : $fields;
-		//　↓↓　＜2020/11/12＞　＜KhanhDinh＞　＜修正＞
+	//　↓↓　＜2020/11/12＞　＜KhanhDinh＞　＜修正＞
 		$json = '{
                     "' . $API . '":{
                         "fields":"' . $str . '",
                         "query":"' . $where . '"
                     }' . (($API == "shin") ? ',"valid_fg" : "1" }' : '}');
 
-		//　↑↑　＜2020/11/12＞　＜KhanhDinh＞　＜修正＞
+	//　↑↑　＜2020/11/12＞　＜KhanhDinh＞　＜修正＞
 		$res = TFP::GetAPIData($API, $json, $request);
 		if ($isArray || is_array($arr)) {
 			$ret = array();
@@ -184,6 +184,18 @@ class TFP extends \Core\Model
 		return $json;
 	}
 
+	// ↓↓　<2022//> <KhanhDinh> <create json for instructor>
+	public static function jsonInstructor($user_cd)
+	{
+		$json = "{
+					'instructor':{
+						'data':[{'name':'user_cd','value':'{$user_cd}','operator':'='}],
+						'fields':'inst_no,inst_syu_kb,inst_syu_nm,tori_kb,del_fg'
+					}
+				}";
+		return $json;
+	}
+	// ↑↑　<2022//> <KhanhDinh> <create json for instructor>
 
 	public static function GetYMD($res, $field, $parr = "", &$count = 0, &$arr = [])
 	{
@@ -385,7 +397,7 @@ class TFP extends \Core\Model
 		return "";
 	}
 
-	public static function saveSession($tfp_ky_e_ymd, $user_cd, $partner_type, &$LoginID)
+	public static function saveDB($tfp_ky_e_ymd, $user_cd, $partner_type, &$LoginID)
 	{
 		if (empty(session_id()))
 			session_start();
@@ -470,7 +482,7 @@ class TFP extends \Core\Model
 	}
 
 	// Save array data into session
-	public static function saveData($LoginID, $typePage, $id, $pass, $user_cd)
+	public static function saveSession1($LoginID, $typePage, $id, $pass, $user_cd)
 	{
 		if (session_id() == "") {
 			session_start();
@@ -482,6 +494,37 @@ class TFP extends \Core\Model
 		$_SESSION[$typePage]["user-ﬂag"] = $typePage;
 		$_SESSION[$typePage]["login"] = $LoginID;
 		$_SESSION[$typePage]["expire"] = time();
+	}
+
+	// Save array data into session
+	public static function saveSession(array $arr)
+	{
+		if (session_id() == "") {
+			session_start();
+		}
+
+		extract($arr);
+		// $_SESSION["user-ﬂag"] = $typePage;
+		$_SESSION[strtoupper($typePage) . "-ID"] = $idDelHyphen;
+		$_SESSION[strtoupper($typePage) . "-PASS"] = $pass;
+		$_SESSION[$typePage]["user_cd"] = $user_cd;
+		$_SESSION[$typePage]["user-ﬂag"] = $typePage;
+		$_SESSION[$typePage]["login"] = $LoginID;
+		$_SESSION[$typePage]["instructor"] = $list_instructor;
+		$_SESSION[$typePage]["expire"] = time();
+	}
+
+	public static function getInstructor($user_cd)
+	{
+		$list_instructor = [];
+		$json_instructor = TFP::jsonInstructor($user_cd);
+		$res = TFP::GetAPIData("instructor", $json_instructor, "GET");
+		$count = (int)TFP::GetFirstByField($res, "count");
+		if($count != 0){
+			TFP::GetListByField($res,$list_instructor,"inst_syu_kb");
+			$list_instructor = array_values(array_unique($list_instructor));
+		}
+		return $list_instructor;
 	}
 
 	public static function getValueUserSub($typePage)
@@ -528,16 +571,17 @@ class TFP extends \Core\Model
 		$LoginID = "";
 		$user_cd = $idDelHyphen;
 		$maxYMD = '2099-12-31 23:59:59';
-
+		$list_instructor = [];
 		switch ($typePage) {
 			case 'saag':
 				if (($idDelHyphen == '10101010' && $pass == '1101') || ($idDelHyphen == '6684332880' && $pass == '6684332880')) {
-					$err = TFP::saveSession($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
+					$err = TFP::saveDB($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
 					if (!empty($err))
 						return false;
 
 					//save session
-					TFP::saveData($LoginID, $typePage, $idDelHyphen, $pass, $user_cd);
+					$dataSession = compact("LoginID", "typePage", "idDelHyphen", "pass", "user_cd", "list_instructor");
+					TFP::saveSession($dataSession);
 
 					//save log
 					// LogController::saveLog($typePage, $clickedLink, $action1, $action2);
@@ -547,12 +591,13 @@ class TFP extends \Core\Model
 				break;
 			case 'sosp':
 				if ($idDelHyphen == '10101010' && $pass == 'sp1101') {
-					$err = TFP::saveSession($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
+					$err = TFP::saveDB($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
 					if (!empty($err))
 						return false;
 
 					//save session
-					TFP::saveData($LoginID, $typePage, $idDelHyphen, $pass, $user_cd);
+					$dataSession = compact("LoginID", "typePage", "idDelHyphen", "pass", "user_cd", "list_instructor");
+					TFP::saveSession($dataSession);
 
 					//save log
 					// LogController::saveLog($typePage, $clickedLink, $action1, $action2);
@@ -562,12 +607,13 @@ class TFP extends \Core\Model
 				break;
 			case 'soup':
 				if ($idDelHyphen == '10101010' && $pass == 'up1101') {
-					$err = TFP::saveSession($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
+					$err = TFP::saveDB($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
 					if (!empty($err))
 						return false;
 
 					//save session
-					TFP::saveData($LoginID, $typePage, $idDelHyphen, $pass, $user_cd);
+					$dataSession = compact("LoginID", "typePage", "idDelHyphen", "pass", "user_cd", "list_instructor");
+					TFP::saveSession($dataSession);
 
 					//save log
 					// LogController::saveLog($typePage, $clickedLink, $action1, $action2);

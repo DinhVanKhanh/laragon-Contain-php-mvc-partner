@@ -28,7 +28,7 @@ use \App\Models\Security;
 // define("ERR_PTNLOGIN_04_01_01", "ERR_PTNLOGIN_04_01_01");
 // require_once __DIR__ . "/../../../common_files/smtp_mail.php";
 
-class Instructor extends \PHPUnit\Framework\TestCase
+class InstructorTest extends \PHPUnit\Framework\TestCase
 {
 	// public function testAdd()
 	// {
@@ -79,40 +79,35 @@ class Instructor extends \PHPUnit\Framework\TestCase
 	public function testInstructor()
 	{
 		$user_cd = "100000002107";
-		$res = Array
-		(
+		$res = array(
 			"status" => 0,
 			"message" => '',
-			"instructor" => Array
-				(
-					"0" => Array
-						(
-							"inst_no" => 'SOI99996',
-							"inst_syu_kb" => '1',
-							"inst_syu_nm" => 'ＳＯＩ会計',
-							"tori_kb" => '0',
-							"del_fg" => '0',
-						),
-		
-					"1" => Array
-						(
-							"inst_no" => 'SOI99999',
-							"inst_syu_kb" => '1',
-							"inst_syu_nm" => 'ＳＯＩ会計',
-							"tori_kb" => '0',
-							"del_fg" => '0',
-						),
-		
-					"2" => Array
-						(
-							"inst_no" => 'SOI99998',
-							"inst_syu_kb" => '2',
-							"inst_syu_nm" => 'ＳＯＩ給料',
-							"tori_kb" => '0',
-							"del_fg" => '0',
-						)
+			"instructor" => array(
+				"0" => array(
+					"inst_no" => 'SOI99996',
+					"inst_syu_kb" => '1',
+					"inst_syu_nm" => 'ＳＯＩ会計',
+					"tori_kb" => '0',
+					"del_fg" => '0',
 				),
-		
+
+				"1" => array(
+					"inst_no" => 'SOI99999',
+					"inst_syu_kb" => '1',
+					"inst_syu_nm" => 'ＳＯＩ会計',
+					"tori_kb" => '0',
+					"del_fg" => '0',
+				),
+
+				"2" => array(
+					"inst_no" => 'SOI99998',
+					"inst_syu_kb" => '2',
+					"inst_syu_nm" => 'ＳＯＩ給料',
+					"tori_kb" => '0',
+					"del_fg" => '0',
+				)
+			),
+
 			"total_count" => 4,
 			"count" => 4
 		);

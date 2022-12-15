@@ -13,6 +13,11 @@
 		<font style="color:#fff; font-size:16px;">|</font>
 		<a href="https://www.sorimachi.co.jp/" target="_blank" rel="noopener noreferrer">ソリマチホームページ</a>
 		<font style="color:#fff; font-size:16px;">|</font>
+<?php
+if (checkLogin($typePage)) : ?>
+		<a href="./about.php" rel="noopener noreferrer">会員サイトの使い方</a>
+		<font style="color:#fff; font-size:16px;">|</font>
+<?php endif ?>
 	</div>
 </div>
 

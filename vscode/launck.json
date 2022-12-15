@@ -1,0 +1,69 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://contenttype:8383/partner/maintenance/",
+            "webRoot": "${workspaceFolder}/wwwroot"
+        },
+        {
+            "name": "Launch built-un server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-S",
+                "localhost:8383/Contain/member/reg/regist_certify.php",
+                "-t",
+                "."
+            ],
+            "port": 9000,
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        },
+        {
+            "name": "Launch built-in server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": ["-S", "localhost:8383", "-t", "."],
+            "port": 9000,
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        },
+        {
+            "name": "Listen for XDebug Laragon 8.1",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+        }
+    ]
+}
+
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Listen for XDebug",
+//             "type": "php",
+//             "request": "launch",
+//             "port": 9000
+//         },
+//         {
+//             "name": "Launch currently open script",
+//             "type": "php",
+//             "request": "launch",
+//             "program": "${file}",
+//             "cwd": "${fileDirname}",
+//             "port": 9000
+//         }
+//     ]
+// }

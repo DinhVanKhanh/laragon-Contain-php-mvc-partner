@@ -63,12 +63,6 @@ $id = @$_SESSION["SOSP-ID"];
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">販売王／販売王 販売・仕入・在庫</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c3" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
-                                    <!--
-                                        <tr>
-                                            <td bgcolor="#E8E8E8" style="padding-left:5px;">顧客王</td>
-                                            <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c4" size="5" maxlength="6">&nbsp;部</td>
-                                        </tr>
--->
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">みんなの青色申告</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c5" size="5" maxlength="6">&nbsp;部</td>
@@ -77,20 +71,16 @@ $id = @$_SESSION["SOSP-ID"];
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">会計王 NPO法人スタイル</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c10" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
-                                    <!--
-                                        <tr>
-                                            <td bgcolor="#E8E8E8" style="padding-left:5px;">会計王 介護事業所スタイル</td>
-                                            <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c12" size="5" maxlength="6">&nbsp;部</td>
-                                        </tr>
--->
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">「王シリーズ」総合カタログ</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c11" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
+<!--
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">訪問指導お助けパック「レスキュー王」</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c6" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
+-->
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">サポート＆サービスガイドブック〈王シリーズ〉</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c7" size="5" maxlength="6">&nbsp;部</td>
@@ -121,7 +111,7 @@ $id = @$_SESSION["SOSP-ID"];
                                     <tr>
                                         <td nowrap colspan="2" class="list_g1w" align="center">
                                             <script src='https://www.google.com/recaptcha/api.js' async defer></script>
-                                            <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="enableBtn"></div>
+                                            <div class="g-recaptcha" data-sitekey="6LftYJEUAAAAACyp331INQW6eidV8O6dHcD2LNGz" data-callback="enableBtn"></div>
                                         </td>
                                     </tr>
                                     <tr>

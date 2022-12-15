@@ -3,13 +3,15 @@
 declare(strict_types=1);
 $_SERVER['SERVER_ADDR'] = "::1";
 
+// require_once __DIR__ . "/../vendor/phpunit/phpunit/src/Framework/TestCase.php";
+
 use \App\Models\TFP;
 use App\Controllers\Auth\LoginController;
 use \Core\View;
 use \App\Models\User;
 use Core\Model;
 use \App\Models\Security;
-
+// use \PHPUnit\Framework\TestCase as TestCase;
 // define("ERR_PTNLOGIN_01_01_01", "ERR_PTNLOGIN_01_01_01");
 // define("ERR_PTNLOGIN_01_01_02", "ERR_PTNLOGIN_01_01_02");
 // define("ERR_PTNLOGIN_01_01_03", "ERR_PTNLOGIN_01_01_03");
@@ -30,56 +32,22 @@ use \App\Models\Security;
 
 class CalculatorTest extends \PHPUnit\Framework\TestCase
 {
-	// public function testAdd()
-	// {
-	// 	// $result = \App\Models\TFP::validate("", "");
-	// 	$err = "";
-	// 	$ValueUserSub = TFP::getValueUserSub("saag");
-	// 	// $result = TFP::proccessCheckNot12("10101010", "1111", "saag", $err);
-	// 	// $result = TFP::proccessCheckKy("100000002107", $ValueUserSub["ky_syu_kb"], $err);
-	// 	// print_r($ValueUserSub);
-	// 	// print_r($result);
-	// 	print_r($ValueUserSub);
-	// 	$arr = array(
-	// 		"value_12" => '201,202',
-	// 		"value_not_12" => "201",
-	// 		"ky_syu_kb" => "6"
-	// 	);
-	// 	$this->assertEquals($arr, $ValueUserSub);
-	// }
-
-	// public function testLoginTFP()
-	// {
-	// 	$_POST["typePage"] = "saag";
-	// 	$_POST["id"] = "10101010";
-	// 	$_POST["pass"] = "11111";
-	// 	$template = "index";
-	// 	$login = new LoginController("");
-	// 	$result = $login->loginAction();
-
-	// 	$err = "";
-	// 	print_r($result);
-	// 	// $this->assertEquals($arr, $ValueUserSub);
-	// }
-
-	// public function testSendMail()
-	// {
-	// 	// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
-	// 	$send = true;
-	// 	$this->assertEquals(false, $send);
-	// }
-
-	// public function testSendMail1()
-	// {
-	// 	// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
-	// 	$send = true;
-	// 	$this->assertEquals(false, $send);
-	// }
-
 	public function testSendMail2()
 	{
 		// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
 		$send = false;
-		$this->assertEquals(false, true);
+		$a = 1 + 2;
+		$b = $a + 100;
+		$this->assertEquals($b, 103);
+		// $this->assertEquals(true, true);
 	}
+
+	// public function testSendMail()
+	// {
+	// 	// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
+	// 	$send = false;
+	// 	$this->assertEquals(true, true);
+	// 	// $this->assertEquals(true, true);
+	// }
+	
 }

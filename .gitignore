@@ -1,6 +1,7 @@
 # Ignore
 .history
 .vscode
+.idea
 data
 common_files
 php-mvc

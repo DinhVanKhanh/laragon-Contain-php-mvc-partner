@@ -57,16 +57,15 @@ class LoginController extends \Core\Controller
 		if (!empty($LoginID))
 			TFP::delSession($LoginID);
 		//end check LoginID
-
 		//regrex
 		$idDelHyphen = preg_replace("/-/", "", $id);
-		// ↓↓　<2022/05/27> <KhanhDinh> <accept user login>
+	// ↓↓　<2022/05/27> <KhanhDinh> <accept user login>
 		$accept = TFP::acceptLogin($typePage, $idDelHyphen, $pass);
 		if ($accept) {
 			echo "<script>location.href='"  . "/partner/" . $typePage . "/member/" . "'</script>";
 			exit;
 		}
-		// ↑↑　<2022/05/27> <KhanhDinh> <accept user login>
+	// ↑↑　<2022/05/27> <KhanhDinh> <accept user login>
 
 		$err = TFP::validate($idDelHyphen, $pass);
 		if (!empty($err))
@@ -100,7 +99,7 @@ class LoginController extends \Core\Controller
 				if (!empty($err))
 					goto Error;
 			} else { // when user_sub has data
-				// ↓↓　<2022/04/27> <YenNhiTran> <process check for value_not_12>
+			// ↓↓　<2022/04/27> <YenNhiTran> <process check for value_not_12>
 				$user_sub_val_id = TFP::GetFirstByField($user_sub["user_sub"][0], "user_sub_val");
 				$json_user_sub_id = TFP::jsonNot12($user_sub_val_id, $ValueUserSub["value_not_12"]);
 				$res_user_sub_id = TFP::GetAPIData("user_sub", $json_user_sub_id, "GET");
@@ -109,7 +108,7 @@ class LoginController extends \Core\Controller
 					$err = ERR_PTNLOGIN_02_01_03;
 					goto Error;
 				}
-				// ↑↑　<2022/04/27> <YenNhiTran> <process check for value_not_12>
+			// ↑↑　<2022/04/27> <YenNhiTran> <process check for value_not_12>
 				$user_sub_pass = TFP::GetFirstByField($user_sub["user_sub"][1], "user_sub_val");
 				$err = TFP::checkPass($user_sub_pass, $pass, $lenId);
 				if (!empty($err))
@@ -136,13 +135,20 @@ class LoginController extends \Core\Controller
 			if (!empty($err))
 				goto Error;
 		}
+
+		//<check Instructor>
+		$list_instructor = TFP::getInstructor($user_cd);
+		// $check_instructor = $instructor;
+		//check Instructor>
+
 		//STEP4:
-		$err = TFP::saveSession($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
+		$err = TFP::saveDB($maxYMD, $user_cd, $typePage, $LoginID); // if error return $err
 		if (!empty($err))
 			goto Error;
 
 		//save session
-		TFP::saveData($LoginID, $typePage, $idDelHyphen, $pass, $user_cd);
+		$dataSession = compact("LoginID", "typePage", "idDelHyphen", "pass", "user_cd", "list_instructor");
+		TFP::saveSession($dataSession);
 
 		//save log
 		// LogController::saveLog($typePage, $clickedLink, $action1, $action2);

@@ -29,30 +29,17 @@
 <?php if ($typePage != "soup" && $typePage != "soi") { ?>
 	<div id="sticky-sidebar" class="sticky-sidebar">
 		<div class="sidebar-bottom">
-			<div style="width:100%; margin:0 auto"><img src="/assets/images/year/2018/11/member_img_01.jpg" width="100%"></div>
-			<div style="width:100%; margin:0 auto"><button onclick="OrderLogin()" style="border:none; width:100%; cursor:pointer;"><img src="/assets/images/year/2018/11/<?= $img ?>" width="100%"></button></div>
-
-			<div style="padding-top:5px; font-size:13px; font-weight:bold">システムのご利用には別途お申し込みが必要です。</div>
-			<div style="padding-top:3px; font-size:13px; font-weight:bold">
-				<a href="https://www.sorimachi.co.jp/files_pdf/apply/sgonlineshop_rules.pdf" target="_blank">
-					<font style="font-size:90%;">≫</font>利用規約
-				</a>
+			<div style="width:100%; margin:0 auto;"><img src="/assets/images/year/2018/11/member_img_01.jpg" width="100%"></div>
+			<div style="width:100%; margin:0 auto;"><button onclick="OrderLogin()" style="border:none; width:100%; cursor:pointer; padding:0; margin:0;"><img src="/assets/images/year/2018/11/<?= $img ?>" width="100%"></button></div>
+			<div style="margin-top:10px; font-size:16px; line-height:20px; font-weight:bold; padding-left:1em; text-indent:-1em;">
+				<a href="https://www.sorimachi.co.jp/files_pdf/apply/sgonlineshop_rules.pdf" target="_blank">≫ ソリマチ公式オンラインショップ 利用規約</a>
 			</div>
-
-			<div style="font-size:13px; font-weight:bold; color:rgba(46,161,168,1);">
-				<a href="https://www.sorimachi.co.jp/files_pdf/apply/sgonlineshop_appl.pdf" target="_blank" style="color:rgba(46,161,168,1);">
-					<font style="font-size:90%;">≫</font>ご利用申込書
-				</a>
+			<div style="padding-top:10px; font-size:13px; line-height:18px;">利用規約をご覧になるには、<a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank">Adobe Reader</a>が必要です。</div>
+<?php if ($typePage == "saag") { ?>
+			<div style="padding-top:10px; font-size:13px; line-height:18px;">
+<br>※公式オンラインショップの利用方法については [ <a href="./about.php">会員サイトの使い方</a> ] ページをご覧ください。
 			</div>
-
-			<div style="padding-top:3px; font-size:13px;">
-				※ 「ご利用申込書」をダウンロードの上、必要事項をご記入いただき、FAXにてお申し込みください。パートナー事務局より ID ・パスワードおよび利用開始日を連絡いたします。<br>
-				<font color="#E00000">ユーザー様用 ID ・パスワード発行画面より利用申込をされた場合、SAAG会員様用価格ではご購入いただけませんのでご注意ください。</font><br>
-			</div>
-
-			<div style="padding-top:3px; font-size:13px;">
-				※ 「利用規約」「ご利用申込書」をご覧になるには<a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank">Adobe Reader</a>が必要です。
-			</div>
+<?php } ?>
 		</div>
 	</div>
 <?php } ?>
@@ -71,7 +58,7 @@
 				<a class='menu' href='/partner/saag/member/'>トップページ</a>
 				<a class='menu' href='/partner/saag/member/news.php'>お知らせ</a>
 				<a class='menu' href='/partner/saag/member/download.php'>各種ダウンロード</a>
-				<a class='menu pc' href='http://support.sorimachi.co.jp/download-s/sp' target='_blank'>最新サービスパック一覧</a>
+				<a class='menu pc' href='https://member.sorimachi.co.jp/' target='_blank'>製品サポート情報</a>
 				<a class='menu' href='/partner/saag/member/faq.php' >製品Ｑ＆Ａ</a>
 				<a class='menu' href='/partner/saag/member/solution.php'>王シリーズ連動製品</a>
 				<a class='menu' href="javascript:PageJump('login_jhsn');">助成金補助金診断ナビ for SAAG</a>

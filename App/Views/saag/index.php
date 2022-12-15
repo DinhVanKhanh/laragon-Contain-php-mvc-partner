@@ -7,12 +7,11 @@ require_once __DIR__ . "/../template/header/header.php";
 @$typePage; //show from controller
 @$template; //show from controller
 ?>
-
 <div id="partner-container">
 	<div class="containers clear">
 		<div style="font-size:17px; font-weight:bold; border:4px #bbbbbb solid; background-color:#ffffdd; padding:10px; margin-bottom:50px;">
 			【記帳支援団体の皆様へお知らせ】<br>
-			<a href="https://www.sorimachi.co.jp/j/kdk/" target="_blank">　→「みんなの確定申告〈令和3年分申告用〉」のダウンロードはこちらから</a>
+			<a href="/kakutei_prtn_s/2022/member_login.php" target="_blank">　→「みんなの確定申告〈令和4年分申告用〉」のダウンロードはこちらから</a>
 		</div>
 
 		<div class="buttonscroll">
@@ -25,6 +24,7 @@ require_once __DIR__ . "/../template/header/header.php";
 		<div class="p085_150_ui">
 			<span style="color:#eb0000">コンサルティングビジネスをネットワークで結ぶトータルサポートシステム</span></br>
 			<font face="arila,sans-serif">SAAG (Sorimachi Application Advisory Group)</font>は、反町税務会計事務所を母体とするソリマチが提案する、まったく新しいコンサルティング・ネットワークプログラムです。
+
 		</div>
 
 		<!-- Row 1 -->

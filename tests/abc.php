@@ -67,5 +67,7 @@ class abc extends \PHPUnit\Framework\TestCase
 		// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
 		$send = false;
 		$this->assertEquals(false, $send);
+		$this->assertEquals(true, $send);
+		$this->assertEquals(true, $send);
 	}
 }

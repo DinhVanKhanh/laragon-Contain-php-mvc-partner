@@ -548,4 +548,15 @@ class RedirectController extends \Core\Controller
 
 		View::render('sosp/ordersp.php', compact('typePage', 'template', 'namePage'));
 	}
+	
+	// ↓↓　<2022/11/18> <KhanhDinh> <add menu saag/member/about.php>
+	public function aboutAction()
+	{
+		$typePage = "saag";
+		$template = "about";
+		$namePage = "SAAG会員サイトの使い方";
+		View::render($typePage . '/about.php', compact('typePage', 'template', 'namePage'));
+		
+	}
+	// ↑↑　<2022/11/18> <KhanhDinh> <add menu saag/member/about.php>
 }

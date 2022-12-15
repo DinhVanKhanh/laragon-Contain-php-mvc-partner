@@ -14,9 +14,11 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 /**
  * Error and Exception handling
  */
+// 2022/10/25 KhanhDinh - Change for PHP8 [start]
 error_reporting(E_ALL);
-set_error_handler('Core\Error::errorHandler');
+// set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
+// 2022/10/25 KhanhDinh - Change for PHP8 [end]
 
 /**
  * Routing
@@ -64,6 +66,11 @@ $router->add('partner/shop/search/result/?', ['controller' => 'ShopSearchControl
 // ↑↑ <2022/06/07> <YenNhi> 
 //excute request from (saag|sosp|soup)/member/contact.php
 $router->add('partner/.+/member/contact_form.php', ['controller' => 'ExcuteController', 'action' => 'contact_form', 'namespace' => 'Exec']);
+
+// ↓↓　<2022/11/18> <KhanhDinh> <add route page saag/member/about.php>
+//SAAG
+$router->add('partner/saag/member/about.php', ['controller' => 'RedirectController', 'action' => 'about', 'namespace' => 'Exec']);
+// ↑↑　<2022/11/18> <KhanhDinh> <add route page saag/member/about.php>
 
 //SOSP
 $router->add('partner/sosp/member/ordersp.php', ['controller' => 'RedirectController', 'action' => 'ordersp', 'namespace' => 'Exec']);

@@ -21,8 +21,20 @@ global $SORIMACHI_HOME_SSL;
         </div>
         <!-- Content Right -->
         <div class="content-right">
-            <!-- /** Content 1 **/ -->
+
+			<!-- /** Content 2 **/ -->
             <section id="row1" class="clear">
+				<div>
+					<h2 class="title-parent-soup">TOPICS</h2>
+				</div>
+				<div style="width:100%; margin:10px auto">
+					<a href="/partner/soup/member/download.php#nyukai-pack"><img class="pic" width="100%" src="/assets/images/nyukai_pack_soup.png"></a>
+				</div>
+			</section>
+
+
+            <!-- /** Content 1 **/ -->
+            <section id="row2" class="clear" style="margin-top: 50px">
                 <div>
                     <h2 class="title-parent-soup">はじめに</h2>
                 </div>

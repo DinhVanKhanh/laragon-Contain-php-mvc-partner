@@ -2,34 +2,22 @@
 
 namespace App;
 
-// die();
 require_once __DIR__ . '/../../../common_files/connect_db.php';
-global $DB_SERVER_SERVICE_NAME, $NAME_SERVICE_DB, $USER_SERVICE_DB, $PASS_SERVICE_DB;
-// $host   = $DB_SERVER_SERVICE_NAME;
-// $user   = $USER_SERVICE_DB;
-// $pass   = $PASS_SERVICE_DB;
-// $dbname = $NAME_SERVICE_DB;
-
-// echo $host . "-" . $user . "-" . $pass . "-" . $dbname;
-// die();
 /**
  * Application configuration
  *
  * PHP version 7.0
  */
-// echo '<pre>';
-// print_r(
-//     get_defined_vars()
-// );
-// echo '<pre>';
-// die();
 class Config
 {
-	// global $DB_SERVER_SERVICE_NAME;
 	public $db_server_service_name;
 	public $user_service_db;
 	public $name_service_db;
 	public $pass_service_db;
+	public $db_server_partner_name;
+	public $name_partner_db;
+	public $user_partner_db;
+	public $pass_partner_db;
 
 
 	function __construct()

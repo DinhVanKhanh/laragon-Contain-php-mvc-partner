@@ -72,9 +72,7 @@
 							<TD class="list_g1">販売王／販売王 販売・仕入・在庫</TD>
 							<TD class="list_g1w"><?= $catalog['販売王'] ?>部</TD>
 						</TR>
-						<!--
-                            <TR><TD class="list_g1">顧客王</TD><TD class="list_g1w">//$catalog['顧客王']部</TD></TR>
--->
+						<!--<TR><TD class="list_g1">顧客王</TD><TD class="list_g1w">//$catalog['顧客王']部</TD></TR>-->
 						<TR>
 							<TD class="list_g1">みんなの青色申告</TD>
 							<TD class="list_g1w"><?= $catalog['みんなの青色申告'] ?>部</TD>
@@ -83,15 +81,17 @@
 							<TD class="list_g1">会計王 NPO法人スタイル</TD>
 							<TD class="list_g1w"><?= $catalog['会計王 NPO法人スタイル'] ?>部</TD>
 						</TR>
-						<!-- <TR><TD class="list_g1">会計王 介護事業所スタイル</TD><TD class="list_g1w">//$catalog['会計王 介護事業所スタイル']部</TD></TR> -->
+						<!--<TR><TD class="list_g1">会計王 介護事業所スタイル</TD><TD class="list_g1w">//$catalog['会計王 介護事業所スタイル']部</TD></TR>-->
 						<TR>
 							<TD class="list_g1">「王シリーズ」総合カタログ</TD>
 							<TD class="list_g1w"><?= $catalog['「王シリーズ」総合カタログ'] ?>部</TD>
 						</TR>
+<!--
 						<TR>
 							<TD class="list_g1">訪問指導お助けパック「レスキュー王」</TD>
 							<TD class="list_g1w"><?= $catalog['訪問指導お助けパック　レスキュー王'] ?>部</TD>
 						</TR>
+-->
 						<TR>
 							<TD class="list_g1">サポート＆サービスガイドブック〈王シリーズ〉</TD>
 							<TD class="list_g1w"><?= $catalog['サポート＆サービスガイドブック＜王シリーズ＞'] ?>部</TD>

@@ -236,7 +236,7 @@ function SendMail($site, $catalog = NULL)
 						'[e-mail]' => $email
 					),
 					'title_page' => "SOSP Member's Website 販促物請求フォーム",
-					'sentence' => '送信をいただき、ありがとうございます。下記のとおり受付をいたしました。今後ともソ<BR>リマチ株式会社をよろしくお願い申しあげます。',
+					'sentence' => '送信をいただき、ありがとうございます。下記のとおり受付をいたしました。<br>今後ともソリマチ株式会社をよろしくお願い申しあげます。',
 					'link' => "/partner/sosp/member/"
 				);
 				$mailfrom = $MAILFROM_SOSP_MORDERSP_FORM;
@@ -289,7 +289,8 @@ function SendMail($site, $catalog = NULL)
 		// 1, 2, 3, 4, 5, 10, 12, 11, 6, 7, 8, 9
 		// 4 -> 顧客王(停止)
 		// 12 -> 介護(停止)
-		$sequence = array(1, 2, 3, 5, 10, 11, 6, 7, 8, 9);
+		// 6 -> レスキュー王(停止)
+		$sequence = array(1, 2, 3, 5, 10, 11, 7, 8, 9);
 		$ctNum = count($sequence);
 		$keys = array_keys($catalog);
 		for ($i = 0; $i < $ctNum; $i++) {
@@ -309,6 +310,7 @@ function SendMail($site, $catalog = NULL)
 	$arg["From"]["Mail"] = $mailfrom;
 	$arg["From"]["Name"] = $mailfromname;
 	$arg["To"]["Mail"]   = $mailto;
+	// $arg["To"]["Mail"]   = "k_watanabe@mail.sorimachi.co.jp";
 	// $arg["To"]["Mail"]   = "nguyentrungquan65@gmail.com";
 	// $arg["BCC"]          = [$bcc . "," . $email];
 	$arg["Subject"]      = $subj;

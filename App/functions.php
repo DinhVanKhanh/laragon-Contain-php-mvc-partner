@@ -211,19 +211,22 @@ function setBannerLogin($typePage, $template)
 			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.3s linear change;">セールスパートナーシップです。</span><br>';
 			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.35s linear change;">さまざまな特典をご用意し、充実した支援体制で</span><br>';
 			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.4s linear change;">SOSP加盟店様の販売活動をバックアップいたします。</span><br>';
+			$paragrap .= '<span style="color:yellow; font-weight:bold; margin:20px auto; font-size:110%; line-height:150%; animation:0.45s linear change;"><br>2022年11月25日(金)よりログインIDとパスワードが変わりました。<br>新しいID・パスワードでログインをお願いいたします。</span><br>';
 			break;
 		case "soup":
 			$paragrap  = '<span style="color:white; margin:10px auto; line-height:200%; animation:0.25s linear change;">ソリマチ認定ユースウェアパートナー制度「SOUP」。</span><br>';
 			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.3s linear change;">ソリマチ認定インストラクター制度「SOI」。</span><br>';
 			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.35s linear change;">ソリマチ独自の資格取得システムによる技能と信頼、</span><br>';
 			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.4s linear change;">顧客の問題解決が新しいビジネスチャンスを提供いたします。</span><br>';
+			$paragrap .= '<span style="color:yellow; font-weight:bold; margin:20px auto; font-size:110%; line-height:150%; animation:0.45s linear change;"><br>2022年11月25日(金)よりログインIDとパスワードが変わりました。<br>新しいID・パスワードでログインをお願いいたします。</span><br>';
 			break;
 		case "saag":
-			$paragrap  = '<span style="color:white; margin:10px auto; line-height:200%; animation:0.25s linear change;">時代の変革に対応する</span><br>';
-			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.3s linear change;">アクティブでアグレッシブな</span><br>';
-			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.35s linear change;">総合コンサルティング事務所をめざして。</span><br>';
-			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.4s linear change;">他の事務所のさらに一歩先を行く</span><br>';
-			$paragrap .= '<span style="color:white; margin:10px auto; line-height:200%; animation:0.45s linear change;">SAAG会員事務所を、ソリマチは応援します。</span>';
+			$paragrap  = '<span style="color:white; margin:10px auto; line-height:180%; animation:0.25s linear change;">時代の変革に対応する</span><br>';
+			$paragrap .= '<span style="color:white; margin:10px auto; line-height:180%; animation:0.3s linear change;">アクティブでアグレッシブな</span><br>';
+			$paragrap .= '<span style="color:white; margin:10px auto; line-height:180%; animation:0.35s linear change;">総合コンサルティング事務所をめざして。</span><br>';
+			$paragrap .= '<span style="color:white; margin:10px auto; line-height:180%; animation:0.4s linear change;">他の事務所のさらに一歩先を行く</span><br>';
+			$paragrap .= '<span style="color:white; margin:10px auto; line-height:180%; animation:0.45s linear change;">SAAG会員事務所を、ソリマチは応援します。</span><br>';
+			$paragrap .= '<span style="color:yellow; font-weight:bold; margin:20px auto; font-size:110%; line-height:150%; animation:0.45s linear change;"><br>2022年11月25日(金)よりログインIDとパスワードが変わりました。<br>新しいID・パスワードでログインをお願いいたします。</span><br>';
 			break;
 	}
 	$background = "/assets/images/year/2018/11/main_bg_" . $typePage .  ".jpg";

@@ -27,7 +27,9 @@ require_once __DIR__ . "/../template/header/header.php";
             <div class="row row_step" style='margin-bottom:10px'>
                 <div class="content_step">
                     <div class="title_step">Step 1&emsp;&emsp;<span>受験する認定タイトルの選択</span></div>
-                    <div style="padding:10px 15px 0">『会計王』、『給料王』、『販売王 販売・仕入・在庫』の中より希望のタイトルを選択します。</div>
+                    <div style="padding:10px 20px 0">
+                        <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> 『会計王』、『給料王』、『販売王 販売・仕入・在庫』の中より希望のタイトルを選択します。</div>
+                    </div>
                 </div>
             </div>
 
@@ -45,59 +47,53 @@ require_once __DIR__ . "/../template/header/header.php";
             <!-- Row 3 -->
             <div class="row row_step" style='margin-bottom:10px'>
                 <div class="content_step">
-                    <div class="title_step">Step 3&emsp;&emsp;<span>仮受付票の送付</span></div>
-                    <div style="padding:10px 20px 0">受付完了後、仮受付票がFAXされます。仮受付票には、受験料及び受験料のお振込要領が記載されています。</div>
+                    <div class="title_step">Step 3&emsp;&emsp;<span>払込取扱票の送付</span></div>
+                    <div style="padding:10px 20px 0">
+                        <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> 受付完了後、受験料及び受験料の払込取扱票が郵送されます。記載された支払期限までにお振込みください。</div>
+                        <div class="id1_2" style="margin-bottom:3px;">※受講券及び受講票の送付は、入金確認後となります。</div>
+
+                        <div class="id1_2" style="margin-bottom:3px;">※お申し込み後の受講日及び受験日の変更は原則としてできませんのでご注意ください。</div>
+
+                        <div class="id1_2" style="margin-bottom:3px;">※ご入金後の返金はいたしかねますのでご了承ください。</div>
+
+                        <div class="id1_2" style="margin-bottom:3px;">※受講券及び受講票は、自身で訂正をいれたもの、受講日・受験日が異なるもの、氏名が違うものはすべて無効とさせていただきますので、受取後に必ずご確認ください。</div>
+                    </div>
                 </div>
             </div>
 
             <!-- Row 4 -->
             <div class="row row_step" style='margin-bottom:10px'>
                 <div class="content_step">
-                    <div class="title_step">Step 4&emsp;&emsp;<span>お振込</span></div>
+                    <div class="title_step">Step 4&emsp;&emsp;<span>受験票の送付</span></div>
                     <div style="padding:10px 20px 0">
-                        <div style="padding:3px 3px 3px 0;"><img src="/assets/images/year/2019/04/icon_01.jpg" /> お振込要領に従った方法で、受講料及び受験料をお振込ください。</div>
-                        <div style="padding:3px 3px 3px 0;"><img src="/assets/images/year/2019/04/icon_01.jpg" /> 仮受付票に振り込み明細票のコピーを添付してソリマチパートナー事務局までFAX（03-5475-5339）にて返信してください。</div>
-                        <div style="padding:3px 3px 2px 0;">【ご注意】</div>
-                        <div style="padding:2px 3px 2px 0;">※受講券及び受講票の送付は、入金確認後となります。</div>
-                        <div style="padding:2px 3px 2px 0;">※お申し込み後の受講日及び受験日の変更は原則としてできませんのでご注意ください。</div>
-                        <div style="padding:2px 3px 2px 0;">※ご入金後の返金はいたしかねますのでご了承ください。</div>
-                        <div style="padding:2px 3px 2px 0;">※受講券及び受講票は、自身で訂正をいれたもの、受講日・受験日が異なるもの、氏名が違うものはすべて無効とさせていただきますので、受取後に必ずご確認ください。</div>
-                    </div>
+                        <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> 入金確認後受講券及び受験票が送られてきます。</div>
+                        <div class="id1_2" style="margin-bottom:3px;">※認定カード用の証明写真を事前にデータでお送りください。</div>                    </div>
                 </div>
             </div>
 
             <!-- Row 5 -->
             <div class="row row_step" style='margin-bottom:10px'>
                 <div class="content_step">
-                    <div class="title_step">Step 5&emsp;&emsp;<span>受験票の送付</span></div>
-                    <div style="padding:10px 20px 0">入金確認後受講券及び受験票、会場案内図が送られてきます。</div>
+                    <div class="title_step">Step 5&emsp;&emsp;<span>認定試験</span></div>
+                    <div style="padding:10px 20px 0">
+                        <div class="id0_1" style="margin-bottom:3px;"><img src="/assets/images/year/2019/04/icon_01.jpg" /> お持ちの製品または体験版にて、事前に予習を行なってください。</div>
+                        <div class="id1_2" style="margin-bottom:3px;">※体験版は [ <a href="https://www.sorimachi.co.jp/products_gyou/trial_version/" target="_blank">こちら</a> ] からダウンロードできます。</div>
+                    </div>
                 </div>
             </div>
 
             <!-- Row 6 -->
             <div class="row row_step" style='margin-bottom:10px'>
                 <div class="content_step">
-                    <div class="title_step">Step 6&emsp;&emsp;<span>認定試験</span></div>
-                    <div style="padding:10px 20px 0">
-                        <div class="id0_1" style="margin-bottom:3px;">お持ちの製品または体験版にて、事前に予習を行なってください。</div>
-                        <div class="id1_2" style="margin-bottom:3px;">※体験版は [ <a href="https://www.sorimachi.co.jp/products_gyou/trial_version/" target="_blank">こちら</a> ] からダウンロードできます。</div>
-                        <div class="id1_2">※体験版の送付（CD-ROM）も承っておりますので、ご希望の場合には下記ソリマチパートナー事務局までご連絡ください。</div>
-                    </div>
+                    <div class="title_step">Step 6&emsp;&emsp;<span>セミナー受講</span></div>
+                    <div style="padding:10px 20px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> 対策セミナー受講日当日には受講券及び受験票、筆記用具、計算機をお持ちください。<BR>（各タイトルに関しての基本操作をはじめ、応用機能まで一通りの操作を学んでいただきます）</div>
                 </div>
             </div>
 
             <!-- Row 7 -->
             <div class="row row_step" style='margin-bottom:10px'>
                 <div class="content_step">
-                    <div class="title_step">Step 7&emsp;&emsp;<span>セミナー受講</span></div>
-                    <div style="padding:10px 20px 0">対策セミナー受講日当日には受講券及び受験票、写真２枚（H30×W24mm）、筆記用具、計算機をお持ちください。<BR>（各タイトルに関しての基本操作をはじめ、応用機能まで一通りの操作を学んでいただきます）</div>
-                </div>
-            </div>
-
-            <!-- Row 8 -->
-            <div class="row row_step" style='margin-bottom:10px'>
-                <div class="content_step">
-                    <div class="title_step">Step 8&emsp;&emsp;<span>認定試験</span></div>
+                    <div class="title_step">Step 7&emsp;&emsp;<span>認定試験</span></div>
                     <div style="padding:10px 20px 0">
                         <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> セミナー終了後に引き続き認定試験を行ないます。</div>
                         <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> 認定試験は、筆記試験と実技試験がございます。</div>
@@ -105,10 +101,10 @@ require_once __DIR__ . "/../template/header/header.php";
                 </div>
             </div>
 
-            <!-- Row 9 -->
+            <!-- Row 8 -->
             <div class="row">
                 <div class="content_step">
-                    <div class="title_step">Step 9&emsp;&emsp;<span>認定</span></div>
+                    <div class="title_step">Step 8&emsp;&emsp;<span>認定</span></div>
                     <div style="padding:10px 20px 0">
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
