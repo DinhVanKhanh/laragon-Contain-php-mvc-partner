@@ -14,11 +14,11 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 /**
  * Error and Exception handling
  */
-// 2022/10/25 KhanhDinh - Change for PHP8 [start]
+// 2023/04 KhanhDinh - Change for PHP8 [start]
 error_reporting(E_ALL);
 // set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
-// 2022/10/25 KhanhDinh - Change for PHP8 [end]
+// 2023/04 KhanhDinh - Change for PHP8 [end]
 
 /**
  * Routing
@@ -76,6 +76,7 @@ $router->add('partner/saag/member/about.php', ['controller' => 'RedirectControll
 $router->add('partner/sosp/member/ordersp.php', ['controller' => 'RedirectController', 'action' => 'ordersp', 'namespace' => 'Exec']);
 //excute request from sosp/member/ordersp.php
 $router->add('partner/sosp/member/ordersp_form.php', ['controller' => 'ExcuteController', 'action' => 'ordersp_form', 'namespace' => 'Exec']);
+$router->add('partner/sosp/member/about.php', ['controller' => 'RedirectController', 'action' => 'about', 'namespace' => 'Exec']);
 
 // $router->add('{id:.+}', ['controller' => 'RedirectController', 'action' => 'index', 'namespace' => 'Exec']);
 // $router->add('.+/member/download.php', ['controller' => 'RedirectController', 'action' => 'download', 'namespace' => 'Exec']);

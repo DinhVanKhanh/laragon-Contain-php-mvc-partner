@@ -3,6 +3,15 @@ date_default_timezone_set('Asia/Tokyo');
 if (empty(session_id())) {
 	session_start();
 }
+/* debugbar */
+// require dirname(__DIR__) . '/../../vendor/autoload.php';
+use DebugBar\StandardDebugBar;
+
+$debugbar = new StandardDebugBar();
+$debugbarRenderer = $debugbar->getJavascriptRenderer();
+// // $debugbarRenderer = $debugbarRenderer;
+// $debugbar["messages"]->addMessage('messenger');
+
 
 define("SITE", $_SERVER['DOCUMENT_ROOT']);
 define("__SERVER_NAME__", $_SERVER['SERVER_NAME'] . ":8383");
@@ -22,7 +31,7 @@ define("__EXWS_SBIBSBCSeminarTop__", "https://www.bc-seminar.jp/");
 define("__EXWS_SBIBSBCSeminarSAAGTop__", "https://www.bc-seminar.jp/form/saag");
 
 
-//require_once __DIR__ . '/../../../../../common_files/connect_db.php';
+require_once __DIR__ . '/../../../../../common_files/connect_db.php';
 global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL;
 
 // $SORIMACHI_HOME        = $SORIMACHI_HOME . "/";
@@ -53,6 +62,9 @@ $lang = [
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel='stylesheet' id='sorimachi-fonts-css' href='https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
 		<link rel='stylesheet' href='/assets/css/style.css' />
+		<!-- debugbar -->
+		<?php echo $debugbarRenderer->renderHead() ?>
+
 		<!-- <link rel="stylesheet" href="/assets/css/blue.css">
         <link rel="stylesheet" href="/assets/css/colors-dark.css">
         <link rel="stylesheet" href="/assets/css/general_req.css">
@@ -180,6 +192,9 @@ $lang = [
 </head>
 
 <body>
+	<!-- debugbar -->
+	<?php echo $debugbarRenderer->render() ?>
 </body>
+
 
 </html>

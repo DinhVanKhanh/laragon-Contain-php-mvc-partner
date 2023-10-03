@@ -1,8 +1,8 @@
 <?php
-declare(strict_types=1);
-$_SERVER['SERVER_ADDR'] = "::1";
+namespace tests\RecursiveTest;
 
-// require_once __DIR__ . "/../vendor/phpunit/phpunit/src/Framework/TestCase.php";
+// declare(strict_types=1);
+$_SERVER['SERVER_ADDR'] = "::1";
 
 use \App\Models\TFP;
 use App\Controllers\Auth\LoginController;
@@ -10,7 +10,7 @@ use \Core\View;
 use \App\Models\User;
 use Core\Model;
 use \App\Models\Security;
-// use \PHPUnit\Framework\TestCase as TestCase;
+
 // define("ERR_PTNLOGIN_01_01_01", "ERR_PTNLOGIN_01_01_01");
 // define("ERR_PTNLOGIN_01_01_02", "ERR_PTNLOGIN_01_01_02");
 // define("ERR_PTNLOGIN_01_01_03", "ERR_PTNLOGIN_01_01_03");
@@ -29,26 +29,22 @@ use \App\Models\Security;
 // define("ERR_PTNLOGIN_04_01_01", "ERR_PTNLOGIN_04_01_01");
 // require_once __DIR__ . "/../../../common_files/smtp_mail.php";
 
-class CalculatorTest extends \PHPUnit\Framework\TestCase
+class BuildTreeTest extends \PHPUnit\Framework\TestCase
 {
-	public function testSendMail2()
+	public function testBuildTree( array $elements, $parentId = 0 )
 	{
-		// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
-		$a = PHP_VERSION;
-		$b = ceil("");
-		$send = false;
-		$a = 1 + 2;
-		$b = $a + 100;
-		$this->assertEquals($b, 103);
-		// $this->assertEquals(true, true);
-	}
+		$branch = array();
 
-	// public function testSendMail()
-	// {
-	// 	// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
-	// 	$send = false;
-	// 	$this->assertEquals(true, true);
-	// 	// $this->assertEquals(true, true);
-	// }
-	
+		foreach ( $elements as $element ) {
+			if ( $element['parent_id'] == $parentId ) {
+				$children = $this->testBuildTree( $elements, $element['id'] );
+				if ( $children ) {
+					$element['children'] = $children;
+				}
+				$branch[] = $element;
+			}
+		}
+
+		return $branch;
+	}
 }

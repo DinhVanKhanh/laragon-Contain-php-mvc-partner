@@ -35,7 +35,7 @@
 				<a href="https://www.sorimachi.co.jp/files_pdf/apply/sgonlineshop_rules.pdf" target="_blank">≫ ソリマチ公式オンラインショップ 利用規約</a>
 			</div>
 			<div style="padding-top:10px; font-size:13px; line-height:18px;">利用規約をご覧になるには、<a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank">Adobe Reader</a>が必要です。</div>
-<?php if ($typePage == "saag") { ?>
+<?php if ($typePage == "saag" || $typePage == "sosp") { ?>
 			<div style="padding-top:10px; font-size:13px; line-height:18px;">
 <br>※公式オンラインショップの利用方法については [ <a href="./about.php">会員サイトの使い方</a> ] ページをご覧ください。
 			</div>

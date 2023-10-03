@@ -67,10 +67,12 @@ $id = @$_SESSION["SOSP-ID"];
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">みんなの青色申告</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c5" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
+<!--
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">会計王 NPO法人スタイル</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c10" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
+-->
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">「王シリーズ」総合カタログ</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c11" size="5" maxlength="6">&nbsp;部</td>
@@ -80,7 +82,6 @@ $id = @$_SESSION["SOSP-ID"];
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">訪問指導お助けパック「レスキュー王」</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c6" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
--->
                                     <tr>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">サポート＆サービスガイドブック〈王シリーズ〉</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c7" size="5" maxlength="6">&nbsp;部</td>
@@ -93,6 +94,7 @@ $id = @$_SESSION["SOSP-ID"];
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;">ソリマチ専用帳票カタログ</td>
                                         <td bgcolor="#E8E8E8" style="padding-left:5px;"><input type="text" name="c9" size="5" maxlength="6">&nbsp;部</td>
                                     </tr>
+-->
                                 </table>
                                 <?php
                                 echo "<script>
@@ -109,7 +111,7 @@ $id = @$_SESSION["SOSP-ID"];
                             <div>
                                 <table cellspacing="0" cellpadding="0" style="border:0; width:100%;">
                                     <tr>
-                                        <td nowrap colspan="2" class="list_g1w" align="center">
+                                        <td nowrap colspan="2" align="center" style="padding-bottom:30px;">
                                             <script src='https://www.google.com/recaptcha/api.js' async defer></script>
                                             <div class="g-recaptcha" data-sitekey="6LftYJEUAAAAACyp331INQW6eidV8O6dHcD2LNGz" data-callback="enableBtn"></div>
                                         </td>
@@ -117,7 +119,7 @@ $id = @$_SESSION["SOSP-ID"];
                                     <tr>
                                         <td nowrap colspan="2">
                                             <div align="center">弊社の個人情報保護基本方針を必ずご確認の上、確認画面へお進みください。<br>なお、弊社の個人情報保護基本方針につきましては、<a href="https://www.sorimachi.co.jp/about/privacy.php" target="_Blank">こちらのページ</a>からも<br>同じ内容をご確認いただけます。</div>
-                                            <div align="center" style="margin:5px auto;"><iframe style="width:510px; height:160px;" src="/partner/policy/"></iframe></div>
+                                            <div align="center" style="margin:5px auto;"><iframe style="width:600px; height:200px;" src="/partner/policy/"></iframe></div>
                                             <div id="form-submit" style="text-align:center"><input style="margin:10px; width:500px; height:50px; color:#fff; font-weight:bold; font-size:18px; background-color:#f80; border:0px; border-radius:5px; cursor:pointer;" id="submit" type="submit" name="submit" value="個人情報保護基本方針に同意して、確認画面へ進む"></div>
                                         </td>
                                     </tr>

@@ -2,7 +2,7 @@
 <phpunit bootstrap="vendor/autoload.php" colors="true" stopOnFailure="false"
 >
     <testsuites>
-    	<testsuite name="TFP">
+    	<testsuite name="TFP2">
         	<!-- <directory suffix="Test.php">tests</directory> -->
         	<directory>tests</directory>
 			<!-- <file>tests/InstructorTest.php</file> -->

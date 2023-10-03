@@ -25,12 +25,12 @@ $id = @$_SESSION["SAAG-ID"];
 			<div style="padding:0 10px;">
 				<table border="0" cellspacing="0" cellpadding="0" width="100%">
 					<tr>
-						<td align="left" valign="top" style="padding-top:10px; font-size:14px">ソリマチ製品やSAAGに対するご意見・ご要望をお寄せください。</td>
+						<td align="left" valign="top" style="padding-top:10px; font-size:14px">ソリマチ製品やSAAGに関するご意見・ご要望、製品操作についてのご不明点をご記入ください。<br>製品操作についてのご不明点への回答はメールにて返信いたします。</td>
 					</tr>
 				</table>
 				<form method="post" action="/partner/saag/member/contact_form.php">
 					<div style="border:1px #E8E8E8 solid; background-color:#F8F8F8">
-						<div style="text-align:center; background-color:#E8E8E8; margin-bottom:10px;">
+						<div style="text-align:center; background-color:#E8E8E8; margin-bottom:10px; padding:10px 0;">
 							<span>下記項目をご記入いただき、「次へ」ボタンを押してください。</span><br>
 							<span>※入力項目はすべて必須項目となります。</span>
 						</div>
@@ -38,22 +38,22 @@ $id = @$_SESSION["SAAG-ID"];
 							<div style="margin-bottom:10px; background-color:#E8E8E8;"><span>SAAG ID：<?= $id ?></span></div>
 							<div style="margin-bottom:10px; background-color:#E8E8E8;"><label>会員名</label><br><input type="text" name="fullname" maxlength="60" style="width:100%;" value="<?= !empty($_POST['fullname']) ? $_POST['fullname'] : '' ?>"></div>
 							<div style="margin-bottom:10px; background-color:#E8E8E8;"><label>e-mail</label><br><input type="text" name="email" maxlength="60" style="width:100%;" value="<?= !empty($_POST['email']) ? $_POST['email'] : '' ?>"></div>
-							<div style="margin-bottom:10px; background-color:#E8E8E8;"><label>文章(300文字以内)</label><br><TEXTAREA name="comment" style="width:100%; height:120px;"><?= !empty($_POST['comment']) ? $_POST['comment'] : '' ?></TEXTAREA></div>
+							<div style="margin-bottom:10px; background-color:#E8E8E8;"><label>文章</label><br><TEXTAREA name="comment" style="width:100%; height:150px;"><?= !empty($_POST['comment']) ? $_POST['comment'] : '' ?></TEXTAREA></div>
 
 							<!-- 送信ボタン(START) -->
 							<div>
 								<table cellspacing="0" cellpadding="0" style="border:0; width:100%;">
 									<tr>
-										<td nowrap colspan="2" class="list_g1w" align="center">
+										<td nowrap colspan="2" align="center" style="padding-bottom:20px;">
 											<script src="https://www.google.com/recaptcha/api.js"></script>
-											<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="enableBtn"></div>
+											<div class="g-recaptcha" data-sitekey="6LftYJEUAAAAACyp331INQW6eidV8O6dHcD2LNGz" data-callback="enableBtn"></div>
 
 										</td>
 									</tr>
 									<tr>
 										<td nowrap colspan="2">
-											<div align="center">弊社の個人情報保護基本方針を必ずご確認の上、確認画面へお進みください。<br>なお、弊社の個人情報保護基本方針につきましては、<a href="https://www.sorimachi.co.jp/about/privacy.php" target="_Blank">こちらのページ</a>からも<br>同じ内容をご確認いただけます。</div>
-											<div align="center" style="margin:5px auto;"><iframe style="width:510px; height:160px;" src="/partner/policy/"></iframe></div>
+											<div align="center" style="line-height:120%;">弊社の個人情報保護基本方針を必ずご確認の上、確認画面へお進みください。<br>なお、弊社の個人情報保護基本方針につきましては、<a href="https://www.sorimachi.co.jp/about/privacy.php" target="_Blank">こちらのページ</a>からも<br>同じ内容をご確認いただけます。</div>
+											<div align="center" style="margin:5px auto;"><iframe style="width:600px; height:200px;" src="/partner/policy/"></iframe></div>
 											<div id="form-submit" style="text-align:center"><input style="margin:10px; width:500px; height:50px; color:#fff; font-weight:bold; font-size:18px; background-color:#f80; border:0px; border-radius:5px; cursor:pointer;" id="submit" type="submit" name="submit" value="個人情報保護基本方針に同意して、確認画面へ進む"></div>
 										</td>
 									</tr>
@@ -85,7 +85,7 @@ require_once __DIR__ . "/../template/footer/footer.php";
 </script>
 <script>
 	grecaptcha.ready(function() {
-		grecaptcha.execute('6LdBvO8aAAAAAGioY2UxRcNohv5dxTxFzYqBNuj6', {
+		grecaptcha.execute('6LftYJEUAAAAAH3EEL0fJdqmNTyBnXKl7ppvuSp0', {
 			action: 'homepage'
 		}).then(function(token) {
 			// pass the token to the backend script for verification

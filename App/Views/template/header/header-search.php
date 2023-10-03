@@ -28,17 +28,18 @@ $title = (isset($namePage) && $namePage === "ソリマチ製品取り扱い店�
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
-	<!-- <2022/06/07> <YenNhi>: namePage of shop search  -->
+	<!-- ↓↓ <2022/06/07> <YenNhi>: namePage of shop search  -->
 	<title><?= $title ?></title>
+	<!-- ↑↑ <2022/06/07> <YenNhi>: namePage of shop search  -->
 
 	<!-- <link rel='stylesheet' id='wp-block-library-css' href='https://partner.sorimachi.co.jp/wp-includes/css/dist/block-library/style.min.css?ver=5.3.4' type='text/css' media='all' /> -->
 	<link rel='stylesheet' id='wp-block-library-css' href='/assets/css/search_form/style.min.css' />
 	<link rel="stylesheet" href="/assets/css/search_form/responsive.css">
 	<link rel="stylesheet" href="/assets/css/search_form/content.css">
-<!-- ↓↓ <2022/06/07> <YenNhi>: add jquery  -->
+	<!-- ↓↓ <2022/06/07> <YenNhi>: add jquery  -->
 	<!-- <script type='text/javascript' src='/assets/js/search_form/jquery.js'></script> -->
 	<script type='text/javascript' src='/assets/js/jquery-3.3.1.min.js'></script>
-<!-- ↑↑ <2022/06/07> <YenNhi>: add jquery  -->
+	<!-- ↑↑ <2022/06/07> <YenNhi>: add jquery  -->
 	<script type='text/javascript' src='/assets/js/search_form/jquery-migrate.min.js'></script>
 	<!-- <script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-2097811-10&#038;ver=5.3.4'></script> -->
 

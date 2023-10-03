@@ -81,10 +81,10 @@ require_once __DIR__ . "/../template/header/header.php";
 						</tr>
 
 						<tr>
-							<th class="list-table" style="background-image:url(/img/sico_psl22.png); background-repeat:no-repeat; background-size:50px 50px; background-position: 10px center; padding-left:70px;">給料王22</th>
-							<td nowrap class="list-table list-table-600">2022/11/16</td>
-							<td nowrap class="list-table list-table-600-3" style="font-size:85%;">psl22dl.exe</td>
-							<td nowrap class="list-table list-table-600">exeファイル<br>(570MB)</td>
+							<th class="list-table" style="background-image:url(/img/sico_psl23.png); background-repeat:no-repeat; background-size:50px 50px; background-position: 10px center; padding-left:70px;">給料王23</th>
+							<td nowrap class="list-table list-table-600">2023/11/xx</td>
+							<td nowrap class="list-table list-table-600-3" style="font-size:85%;">psl23dl.exe</td>
+							<td nowrap class="list-table list-table-600">exeファイル<br>(xxx MB)</td>
 							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('psl')"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 
@@ -130,19 +130,19 @@ require_once __DIR__ . "/../template/header/header.php";
 						</tr>
 
 						<tr>
-							<th nowrap class="list-table">SOSP会員規約</th>
-							<td nowrap class="list-table list-table-600">2004/08/05</td>
+							<th nowrap class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->SOSP会員規約</th>
+							<td nowrap class="list-table list-table-600">2022/12/06</td>
 							<td nowrap class="list-table list-table-600-3">sosp_kiyaku.pdf</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/sosp/download_files/sosp_kiyaku.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 
 						<tr>
-							<th nowrap class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>最新製品 価格表（第1版）</th>
-							<td nowrap class="list-table list-table-600">2022/11/24</td>
-							<td nowrap class="list-table list-table-600-3" style="word-break:break-all; white-space:normal; font-size:80%;">sosp_pricelist_22-01.pdf</td>
+							<th nowrap class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>最新製品 価格表（第2版）</th>
+							<td nowrap class="list-table list-table-600">2023/04/01</td>
+							<td nowrap class="list-table list-table-600-3" style="word-break:break-all; white-space:normal; font-size:80%;">sosp_pricelist_22-02.pdf</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
-							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/sosp/download_files/sosp_pricelist_22-01.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
+							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/sosp/download_files/sosp_pricelist_22-02.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 					</table>
 				</div>
@@ -162,7 +162,7 @@ require_once __DIR__ . "/../template/header/header.php";
 						</tr>
 
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>最新製品 レベルアップ項目書</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->最新製品 レベルアップ項目書</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600-3">oh22-01sr_point.zip</td>
 							<td nowrap class="list-table list-table-600">ZIP<br>（PDF）</td>
@@ -186,14 +186,14 @@ require_once __DIR__ . "/../template/header/header.php";
 						</tr>
 
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「会計王22」</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->製品カタログ「会計王22」</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/acc_apr22.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「みんなの青色申告22」</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->製品カタログ「みんなの青色申告22」</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/accper22.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
@@ -206,13 +206,13 @@ require_once __DIR__ . "/../template/header/header.php";
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/acn21.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「給料王22」</th>
-							<td nowrap class="list-table list-table-600">2022/11/24</td>
+							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「給料王23」</th>
+							<td nowrap class="list-table list-table-600">2023/11/xx</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
-							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/psl22.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
+							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/psl23.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「販売王22／販売王22 販売・仕入・在庫」
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->製品カタログ「販売王22／販売王22 販売・仕入・在庫」
 							</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
@@ -346,23 +346,22 @@ require_once __DIR__ . "/../template/header/header.php";
 							<th class="list-table">
 								<?php
 								$print = "";
-								if (date("Y/m/d") < "2022/06/01") {
+								if (date("Y/m/d") < "2023/04/01") {
 									$print = '&nbsp;<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif">&ensp;NEW!&ensp;</span><br>';
 								}
 								echo $print;
 								?>
-								「みんなの確定申告〈令和3年分申告用〉」<br>Ver.21.00.00
+								「みんなの確定申告〈令和4年分申告用〉」<br>Ver.22.00.00
 							</th>
-							<td nowrap class="list-table list-table-600">2022/01/24</td>
-							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('kakutei2021')"><img src="/assets/images/year/2020/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
+							<td nowrap class="list-table list-table-600">2023/01/23</td>
+							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('kakutei2022')"><img src="/assets/images/year/2020/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 
 						<tr>
-							<th class="list-table"><!--<?php echo $print ?>-->「みんなの電子申告〈令和3年分 e-Tax連携オプション〉」</th>
-							<td nowrap class="list-table list-table-600">2022/01/27</td>
-							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('etax2021')"><img src="/assets/images/year/2020/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
+							<th class="list-table"><?php echo $print ?>「みんなの電子申告〈令和4年分 e-Tax連携オプション〉」</th>
+							<td nowrap class="list-table list-table-600">2023/01/27</td>
+							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('etax2022')"><img src="/assets/images/year/2020/01/dl_02_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
-
 						<table border="0" cellspacing="0" cellpadding="0" class="table-form" style="margin-top:40px">
 							<tr>
 								<td class="list-table" valign="top" style="width:112px; border-top:1px solid #ddd"><a href="<?= __EXWS_AdobeReaderDL__ ?>" target="_blank"><img src="/assets/images/year/2020/01/img_pdf.jpg" border="0" width="112" height="33"></a></td>
@@ -394,7 +393,7 @@ require_once __DIR__ . "/../template/header/header.php";
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/accnet22_00/" name="accnet" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['sosp']['login'] ?>" /></form>
 
 		<!-- 給料王ダウンロードリンク処理  -->
-		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/psl22_00/" name="psl" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['sosp']['login'] ?>" /></form>
+		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/psl23_00/" name="psl" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['sosp']['login'] ?>" /></form>
 
 		<!-- 販売王ダウンロードリンク処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/sal22_00/" name="sal" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['sosp']['login'] ?>" /></form>
@@ -410,6 +409,12 @@ require_once __DIR__ . "/../template/header/header.php";
 
 		<!-- eTaxOP2022(R4)ダウンロード処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/etax_prtn_s/2022/" name="etax2022" method="post" target="_blank"><input type="hidden" name="etax2022" value="99"><input type="hidden" name="etax" value="SOSP"><input type="hidden" name="sosp-id" value="<?= $_SESSION['SOSP-ID'] ?>" /></form>
+
+		<!-- みん確2021(R3)ダウンロードリンク処理  -->
+		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/kakutei_prtn_s/2021/" name="kakutei2021" method="post" target="_blank"><input type="hidden" name="kakutei" value="SOSP"><input type="hidden" name="sosp-id" value="<?= $_SESSION['SOSP-ID'] ?>" /></form>
+
+		<!-- eTaxOP2021(R3)ダウンロード処理  -->
+		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/etax_prtn_s/2021/" name="etax2021" method="post" target="_blank"><input type="hidden" name="etax2021" value="99"><input type="hidden" name="etax" value="SOSP"><input type="hidden" name="sosp-id" value="<?= $_SESSION['SOSP-ID'] ?>" /></form>
 
 		<!-- みん確2020(R2)ダウンロードリンク処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/kakutei_prtn_s/2020/" name="kakutei2020" method="post" target="_blank"><input type="hidden" name="kakutei" value="SOSP"><input type="hidden" name="sosp-id" value="<?= $_SESSION['SOSP-ID'] ?>" /></form>

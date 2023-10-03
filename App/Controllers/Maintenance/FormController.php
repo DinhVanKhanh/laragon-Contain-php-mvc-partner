@@ -436,7 +436,11 @@ class FormController extends \Core\Controller
 			}
 			// mysqli_query($conn, "SET sql_mode = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'");
 			// Model::getDB()->query("SET sql_mode = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'");
-			User::setPDO("SET sql_mode = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'");
+		// ↓↓　<2023/05/08> <YenNhiTran> <Change for MYSQL8>
+			// User::setPDO("SET sql_mode = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'");
+			User::setPDO("SET sql_mode = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'");
+		// ↑↑　<2023/05/08> <YenNhiTran> <Change for MYSQL8>
+
 			$sql = "UPDATE infos_{$table} SET
                 show_web         = '{$show_web}',
                 show_web_mfd     = '{$show_web_mfd}',

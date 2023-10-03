@@ -361,7 +361,7 @@ function updateDatabaseFromID($oldID, $newID, $numPage)
 }
 //Dinh Van Khanh
 
-function checkNot12($newID = null, &$user_cd, $ValueUserSub = [])
+function checkNot12($newID, &$user_cd, $ValueUserSub = [])
 {
 	$error = "";
 

@@ -158,6 +158,9 @@
 
     // 日付（日本形式）
     function formatYMD($date, $option = 'Y/m/d') {
+    // 2023/04 KhanhDinh - Change for PHP8 [start]
+		$date = $date ?? "";
+    // 2023/04 KhanhDinh - Change for PHP8 [end]
         return date($option, strtotime($date));
     }
 ?>

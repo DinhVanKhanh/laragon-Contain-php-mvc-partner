@@ -327,7 +327,7 @@ require_once __DIR__ . "/../template/header/header.php";
                     ソリマチパートナー事務局<br>
                     〒141-0022<br>
                     東京都品川区東五反田3-18-6　ソリマチ第8ビル<br>
-                    TEL:03-3446-1311&nbsp;&nbsp;FAX:03-5475-5339<br>
+                    TEL:03-6773-7530&nbsp;&nbsp;FAX:03-6685-4470<br>
                     e-mail : <a href="mailto:soup@mail.sorimachi.co.jp">soup@mail.sorimachi.co.jp</a>
                 </div>
             </div>

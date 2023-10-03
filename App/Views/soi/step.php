@@ -39,7 +39,7 @@ require_once __DIR__ . "/../template/header/header.php";
                     <div class="title_step">Step 2&emsp;&emsp;<span>お申込</span></div>
                     <div style="padding:10px 20px 0">
                         <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> ソリマチパートナー事務局またはホームページにてSOI試験開催日程を確認します。</div>
-                        <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> パンフレットの裏面、または [ <a href="https://www.sorimachi.co.jp/files_pdf/apply/soi_appl.pdf" target="_blank">ダウンロード</a> ] していただいたお申込書に必要事項を記入し、ソリマチパートナー事務局にFAX（03-5475-5339）します。</div>
+                        <div style="padding:3px 3px 3px 0"><img src="/assets/images/year/2019/04/icon_01.jpg" /> パンフレットの裏面、または [ <a href="https://www.sorimachi.co.jp/files_pdf/apply/soi_appl.pdf" target="_blank">ダウンロード</a> ] していただいたお申込書に必要事項を記入し、ソリマチパートナー事務局にFAX（03-6685-4470）します。</div>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@ require_once __DIR__ . "/../template/header/header.php";
                     ソリマチパートナー事務局<br>
                     〒141-0022<br>
                     東京都品川区東五反田3-18-6　ソリマチ第8ビル<br>
-                    TEL:03-3446-1311&nbsp;&nbsp;FAX:03-5475-5339<br>
+                    TEL:03-6773-7530&nbsp;&nbsp;FAX:03-6685-4470<br>
                     e-mail : <a href="mailto:soup@mail.sorimachi.co.jp">soup@mail.sorimachi.co.jp</a>
                 </div>
             </div>

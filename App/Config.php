@@ -44,7 +44,8 @@ class Config
 	 * @var string
 	 */
 	// const DB_HOST = '192.168.3.215';
-	const DB_HOST = 'localhost';
+	// const DB_HOST = 'localhost';
+	const DB_HOST = '127.0.0.1';
 
 	/**
 	 * Database name

@@ -49,7 +49,7 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 3 -->
+		<!-- Row 3
 		<div class="row">
 			<div class="img_stt"><img src="/assets/images/year/2018/11/nb3.png"></div>
 			<div class="info_right">
@@ -58,11 +58,11 @@ require_once __DIR__ . "/../template/header/header.php";
 				</div>
 				<div class="index_pttxt">所内のスタッフの方が、それぞれにご使用いただけるよう、お求めやすい価格で、所内ライセンスをご提供いたします。SAAG会員事務所内の複数のパソコンにインストールして運用可能です。</div>
 			</div>
-		</div>
+		</div> -->
 
-		<!-- Row 4 -->
+		<!-- Row 3 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb4.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb3.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>顧問先導入製品優待価格（SAAG会員→顧問先）</h3>
@@ -71,9 +71,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 5 -->
+		<!-- Row 4 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb5.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb4.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>顧問先他社製品乗換特別価格</h3>
@@ -85,9 +85,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 6 -->
+		<!-- Row 5 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb6.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb5.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>SAAG会員専用コールセンター</h3>
@@ -96,9 +96,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 7 -->
+		<!-- Row 6 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb7.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb6.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>SAAG会員専用Webサイト</h3>
@@ -107,9 +107,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 8 -->
+		<!-- Row 7 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb8.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb7.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>SAAG会員事務所をソリマチホームページで紹介</h3>
@@ -118,9 +118,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 9 -->
+		<!-- Row 8 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb9.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb8.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>ソリマチ認定インストラクター試験の受験料が無料（所内１名様１回）</h3>
@@ -132,9 +132,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 10 -->
+		<!-- Row 9 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb10.png"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb9.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>会計事務所専用ツールのご提案</h3>
@@ -157,9 +157,9 @@ require_once __DIR__ . "/../template/header/header.php";
 			</div>
 		</div>
 
-		<!-- Row 11 -->
+		<!-- Row 10 -->
 		<div class="row">
-			<div class="img_stt"><img src="/assets/images/year/2018/11/nb11.jpg"></div>
+			<div class="img_stt"><img src="/assets/images/year/2018/11/nb10.png"></div>
 			<div class="info_right">
 				<div class="index_ptmida">
 					<h3>SAAG会員向けソリューションのご提供</h3>
@@ -167,13 +167,11 @@ require_once __DIR__ . "/../template/header/header.php";
 				<div class="index_pttxt">
 					<!--SAAG会員向けソリューション</div>-->
 					<div class="colum-50">
-						<img src="/assets/images/year/2018/11/saag_img_03.jpg" /><br>
-						<font style="font-size:15px; font-weight:bold">「経費Bankパートナー for SAAG」</font></br>
+						<img src="/assets/images/saag/kbank_logo_2.png" width="200"><br>
+						<font style="font-size:15px; font-weight:bold">「経費BANKパートナー for SAAG」</font></br>
 						（業務提携：SBIビジネス・ソリューションズ株式会社）</br>
-						「会計王」と連動し、経理業務をピンポイントで改善するSaas型の経費精算システム「
-						<!--<a href="http://www.sbi-bs.co.jp/01_01_03.html" target="_blank">-->経費Bank
-						<!--</a>-->」。</br>
-						『経費Bankパートナー for SAAG』として顧問先にご提案・導入をしていただくことで、SAAG会員様だけの特典を受けることができるソリューションサービスです。
+						「会計王」と連動し、経理業務をピンポイントで改善するクラウド型の経費精算システム「経費BANK」。</br>
+						『経費BANKパートナー for SAAG』として顧問先にご提案・導入をしていただくことで、SAAG会員様だけの特典を受けることができるソリューションサービスです。
 					</div>
 
 					<div class="colum-50" style="margin:0">
@@ -230,50 +228,29 @@ require_once __DIR__ . "/../template/header/header.php";
 					<h3>貴事務所</h3>
 				</div>
 				<div class="index_pttxt0">
-					必要な書類：<b>SAAG入会申込書</b><br>
-					※入会申込書のダウンロードは [ <a href="https://www.sorimachi.co.jp/files_pdf/apply/saag_appl.pdf">こちら</a> ]
+<div style="text-align:left;">
+「SAAG入会申し込み」フォームからお申込みください。
+</div>
+
+<a href="https://ws.formzu.net/fgen/S31276173/" target="_blank"><div style="margin:10px auto 20px auto; width:50%; background-color:#ccaa66; padding:15px 50px; border-radius:30px; color:#ffffff; font-weight:bold;">SAAG入会申し込み</div></a>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="index_ptmida0">
-					<h3>最寄のソリマチ営業所</h3>
+					<h3>ソリマチ株式会社</h3>
 				</div>
-				<div class="index_pttxt0">規約・入会パックをお届けします</div>
+				<div class="index_pttxt0" style="text-align:left;">
+メールにて下記についてご案内いたします。<br>
+・事務所用製品の利用方法<br>
+・SAAG 会員サイト<br>
+・公式オンラインショップ<br>
+				</div>
+				<div class="index_pttxt0" style="text-align:left;">
+顧問先用無償提供製品を郵送にてお届けします。
+				</div>
 			</div>
 
-			<div class="row">
-				<div class="index_ptmida0">
-					<h3>貴事務所</h3>
-				</div>
-				<div class="index_pttxt0"><b>ホームページ掲載申込書</b>をお送りください</div>
-			</div>
-
-			<div class="row">
-				<div class="index_ptmida0">
-					<h3>最寄のソリマチ営業所</h3>
-				</div>
-				<div class="index_pttxt0"><b>
-						<font color="#EB0000">SAAG会員証</font>
-					</b>をお渡しいたします</div>
-			</div>
-
-			<div class="row">
-				<div class="index_ptmida0">
-					<h3>貴事務所</h3>
-				</div>
-				<div class="index_pttxt" style="padding-top:10px">
-					<span><a href="https://www.sorimachi.co.jp/files_pdf/apply/saag_appl.pdf" target="_blank">「SAAG入会申込書（PDF）」</a>はこちらからダウンロードできます。</span>
-					<div class="row" style="margin: 10px 0">
-						<div class="btn-down-left"><a href="https://www.sorimachi.co.jp/files_pdf/apply/saag_appl.pdf" target="_blank">
-								<img src="/assets/images/year/2018/11/down_pdf.png" alt="「SAAG入会申込書」ダウンロード"></a>
-						</div>
-						<div style="padding: 5px 0">ボタンを右クリックし、<br>メニューから「対象をファイルに保存」を選択して保存してください。</div>
-					</div>
-					<div>※「SAAG入会申込書」をご覧になる場合は <a href="http://www.adobe.co.jp/products/acrobat/readstep2.html" target="_blank">Adobe Reader</a> が必要です。</div>
-					<div>※ファイルとしてダウンロードしたい場合は、該当するリンクを右クリックし、メニュー内の「対象をファイルに保存」を選んでしてください。</div>
-				</div>
-			</div>
 		</div>
 
 

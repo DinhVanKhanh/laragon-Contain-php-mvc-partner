@@ -57,6 +57,7 @@ class LoginController extends \Core\Controller
 		if (!empty($LoginID))
 			TFP::delSession($LoginID);
 		//end check LoginID
+
 		//regrex
 		$idDelHyphen = preg_replace("/-/", "", $id);
 	// ↓↓　<2022/05/27> <KhanhDinh> <accept user login>

@@ -306,7 +306,7 @@ require_once __DIR__ . "/../template/header/header-form.php";
                                                         <tr>
                                                             <td style="background:#FFFFC0; padding:8px 8px 8px 50px; border:#3C4EAB 1px solid" valign="middle">
                                                                 <div style="font-size:100%; line-height:16px; font-weight:bold; color:#A31D1D;">ソリマチ パートナー事務局</div>
-                                                                <div style="font-size:100%; line-height:120%; color:#404040;">ＴＥＬ：03-3446-1311&#12288;ＦＡＸ：03-5475-5339</div>
+                                                                <div style="font-size:100%; line-height:120%; color:#404040;">ＴＥＬ：03-6773-7530&#12288;ＦＡＸ：03-6685-4470</div>
                                                                 <div style="font-size:100%; line-height:120%; color:#404040;">141-0022&nbsp;東京都品川区東五反田3-18-6 ソリマチ第8ビル</div>
                                                                 <div style="font-size:100%; line-height:120%; color:#404040; font-family:verdana">E-mail： <a href="mailto:partner@mail.sorimachi.co.jp">partner@mail.sorimachi.co.jp</a></div>
                                                             </td>

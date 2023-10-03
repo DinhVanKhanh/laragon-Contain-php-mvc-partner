@@ -1,8 +1,8 @@
 <?php
-declare(strict_types=1);
-$_SERVER['SERVER_ADDR'] = "::1";
+namespace tests\MethodTest;
 
-// require_once __DIR__ . "/../vendor/phpunit/phpunit/src/Framework/TestCase.php";
+// declare(strict_types=1);
+$_SERVER['SERVER_ADDR'] = "::1";
 
 use \App\Models\TFP;
 use App\Controllers\Auth\LoginController;
@@ -10,7 +10,7 @@ use \Core\View;
 use \App\Models\User;
 use Core\Model;
 use \App\Models\Security;
-// use \PHPUnit\Framework\TestCase as TestCase;
+
 // define("ERR_PTNLOGIN_01_01_01", "ERR_PTNLOGIN_01_01_01");
 // define("ERR_PTNLOGIN_01_01_02", "ERR_PTNLOGIN_01_01_02");
 // define("ERR_PTNLOGIN_01_01_03", "ERR_PTNLOGIN_01_01_03");
@@ -29,26 +29,29 @@ use \App\Models\Security;
 // define("ERR_PTNLOGIN_04_01_01", "ERR_PTNLOGIN_04_01_01");
 // require_once __DIR__ . "/../../../common_files/smtp_mail.php";
 
-class CalculatorTest extends \PHPUnit\Framework\TestCase
+class StaticTest extends \PHPUnit\Framework\TestCase
 {
-	public function testSendMail2()
+    public function testMethodStatic()
 	{
-		// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
-		$a = PHP_VERSION;
-		$b = ceil("");
-		$send = false;
-		$a = 1 + 2;
-		$b = $a + 100;
-		$this->assertEquals($b, 103);
-		// $this->assertEquals(true, true);
-	}
+		// display_errorsをONに設定
+		ini_set( 'display_errors', 1 );
 
-	// public function testSendMail()
-	// {
-	// 	// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");
-	// 	$send = false;
-	// 	$this->assertEquals(true, true);
-	// 	// $this->assertEquals(true, true);
-	// }
-	
+
+		require_once __DIR__ . "/../../../../common_files/webserver_flg.php";
+		require_once __DIR__ . "/../../../../common_files/IPAdress.php";
+		require_once __DIR__ . "/../../../../common_files/japanese.php";
+		require_once __DIR__ . "/../../../../common_files/lib/softdownload/common.php";
+		global $DATAFILES_DIRECTORY;
+		global $PRG_DOWNLOAD_SERVER;
+		date_default_timezone_set( "Asia/Tokyo" );
+		// メールアドレスが入っていなければ処理終了。
+		$DLMailAddress = trim( $_POST["email"] ?? "hello" );
+		if ( $DLMailAddress == "" ) {
+			exit;
+		}
+		$DLMailAddress = strtolower( $DLMailAddress );
+		$DLMailAddress = Japanese::strConv( $DLMailAddress, 8 );
+
+		echo 1234;
+	}
 }

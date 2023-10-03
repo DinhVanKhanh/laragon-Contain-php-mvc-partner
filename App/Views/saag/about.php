@@ -27,7 +27,7 @@ global $SORIMACHI_HOME_SSL;
                             </tr>
                             <tr>
                                 <td style="font-size:24px; font-weight:bold; line-height:40px; font-family:Meiryo,Sans-serif;">
-                                    <a href="https://www.sorimachi.co.jp/partner/saag/download_files/saag_product_downlaod.pdf" target="_blank">≫&nbsp;製品ダウンロード方法のご案内(PDF)</a>
+                                    <a href="https://res.sorimachi.co.jp/files_pdf/partner_product_downlaod.pdf" target="_blank">≫&nbsp;製品ダウンロード方法のご案内(PDF)</a>
                                 </td>
                             </tr>
                             <tr>
@@ -35,7 +35,7 @@ global $SORIMACHI_HOME_SSL;
                             </tr>
                             <tr>
                                 <td style="font-size:24px; font-weight:bold; line-height:40px; font-family:Meiryo,Sans-serif;">
-                                    <a href="https://www.sorimachi.co.jp/partner/saag/download_files/saag_howtouse_onlineshop.pdf" target="_blank">≫&nbsp公式オンラインショップの利用方法(PDF)</a>
+                                    <a href="https://res.sorimachi.co.jp/files_pdf/partner_howtouse_onlineshop.pdf" target="_blank">≫&nbsp公式オンラインショップの利用方法(PDF)</a>
                                 </td>
                             </tr>
                     </table>

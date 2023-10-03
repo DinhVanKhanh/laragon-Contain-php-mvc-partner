@@ -360,9 +360,11 @@ function updateDatabaseFromID($oldID, $newID, $numPage)
 	}
 	return $result;
 }
-//Dinh Van Khanh
 
-function checkNot12($newID = null, &$user_cd, $ValueUserSub = [])
+// 2023/04 KhanhDinh - Change for PHP8 [start]
+// change $newID = null => $newID
+function checkNot12($newID, &$user_cd, $ValueUserSub = [])
+// 2023/04 KhanhDinh - Change for PHP8 [end]
 {
 	$error = "";
 

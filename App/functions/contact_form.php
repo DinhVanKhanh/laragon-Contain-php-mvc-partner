@@ -290,7 +290,11 @@ function SendMail($site, $catalog = NULL)
 		// 4 -> 顧客王(停止)
 		// 12 -> 介護(停止)
 		// 6 -> レスキュー王(停止)
-		$sequence = array(1, 2, 3, 5, 10, 11, 7, 8, 9);
+		// 10 -> NPO
+		// 7 ->
+		// 8 ->
+		// 9 ->
+		$sequence = array(1, 2, 3, 5, 11);
 		$ctNum = count($sequence);
 		$keys = array_keys($catalog);
 		for ($i = 0; $i < $ctNum; $i++) {
@@ -309,8 +313,8 @@ function SendMail($site, $catalog = NULL)
 	// $arg["From"]["Mail"] = "dinhvankhanh107@gmail.com";
 	$arg["From"]["Mail"] = $mailfrom;
 	$arg["From"]["Name"] = $mailfromname;
-	$arg["To"]["Mail"]   = $mailto;
-	// $arg["To"]["Mail"]   = "k_watanabe@mail.sorimachi.co.jp";
+	// $arg["To"]["Mail"]   = $mailto;
+	$arg["To"]["Mail"]   = "k_watanabe@mail.sorimachi.co.jp";
 	// $arg["To"]["Mail"]   = "nguyentrungquan65@gmail.com";
 	// $arg["BCC"]          = [$bcc . "," . $email];
 	$arg["Subject"]      = $subj;

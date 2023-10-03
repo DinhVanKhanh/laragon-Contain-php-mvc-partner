@@ -286,7 +286,7 @@ class RedirectController extends \Core\Controller
 				break;
 		}
 		$template = "keihi-bank";
-		$namePage = "経費Bankパートナー for SAAG";
+		$namePage = "経費BANKパートナー for SAAG";
 
 		/* save log */
 		//LogController::saveLog($typePage, $template, "View", $namePage);
@@ -552,11 +552,26 @@ class RedirectController extends \Core\Controller
 	// ↓↓　<2022/11/18> <KhanhDinh> <add menu saag/member/about.php>
 	public function aboutAction()
 	{
-		$typePage = "saag";
+		$name = @$_GET;
+		$name = array_keys($name)[0];
+		$name = explode("/", $name)[1];
+
+		switch ($name) {
+			case 'saag':
+				$typePage = "saag";
+				$namePage = "SAAG会員サイトの使い方";
+				break;
+			case 'sosp':
+				$typePage = "sosp";
+				$namePage = "SOSP会員サイトの使い方";
+				break;
+			default:
+				break;
+		}
+
 		$template = "about";
-		$namePage = "SAAG会員サイトの使い方";
 		View::render($typePage . '/about.php', compact('typePage', 'template', 'namePage'));
 		
 	}
-	// ↑↑　<2022/11/18> <KhanhDinh> <add menu saag/member/about.php>
+	// ↑↑　<2022/11/18> <KhanhDinh> <add menu saag/member/about.php>}
 }

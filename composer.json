@@ -5,11 +5,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Core\\": "Core/",
-            "App\\": "App/"
+			"Core\\": "Core/",
+            "App\\": "App/",
+            "tests\\": "tests/"
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "9"
+        "phpunit/phpunit": "^9.1"
     }
 }

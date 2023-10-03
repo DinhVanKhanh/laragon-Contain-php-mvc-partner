@@ -91,7 +91,7 @@ global $SORIMACHI_HOME_SSL;
                                     〒141-0022 東京都品川区東五反田3-18-6 ソリマチ第8ビル<BR>
                                 </div>
                                 <div style="margin-top:1ex;">
-                                    ※お急ぎの場合はあらかじめFAX（03-5475-5339）をお送りください。
+                                    ※お急ぎの場合はあらかじめFAX（03-6685-4470）をお送りください。
                                 </div>
                             </td>
                         </tr>
@@ -170,7 +170,7 @@ global $SORIMACHI_HOME_SSL;
                     <div class="index_pttxt">
                         <div class="id2_4">
                             【 <b>初回の登録、お申し込み方法に関するお問合せ</b> 】<BR>ソリマチ株式会社　パートナー事務局<BR>
-                            [TEL] 03-3446-1311　[FAX] 03-5475-5339<BR>
+                            [TEL] 03-6773-7530　[FAX] 03-6685-4470<BR>
                             [MAIL] saag@mail.sorimachi.co.jp
                             <div style="margin-top:1em;">【 <b>サービスの詳細、ご利用に関するお問合せ（ご登録後）</b> 】<BR>株式会社ファシオ　ビジネスクラスセミナー担当</div>
                         </div>

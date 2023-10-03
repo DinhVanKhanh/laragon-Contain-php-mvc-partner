@@ -28,40 +28,8 @@ use \App\Models\Security;
 // define("ERR_PTNLOGIN_04_01_01", "ERR_PTNLOGIN_04_01_01");
 require_once __DIR__ . "/../../../common_files/smtp_mail.php";
 
-class abc extends \PHPUnit\Framework\TestCase
+class RegrexTest extends \PHPUnit\Framework\TestCase
 {
-	// public function testAdd()
-	// {
-	// 	// $result = \App\Models\TFP::validate("", "");
-	// 	$err = "";
-	// 	$ValueUserSub = TFP::getValueUserSub("saag");
-	// 	// $result = TFP::proccessCheckNot12("10101010", "1111", "saag", $err);
-	// 	// $result = TFP::proccessCheckKy("100000002107", $ValueUserSub["ky_syu_kb"], $err);
-	// 	// print_r($ValueUserSub);
-	// 	// print_r($result);
-	// 	print_r($ValueUserSub);
-	// 	$arr = array(
-	// 		"value_12" => '201,202',
-	// 		"value_not_12" => "201",
-	// 		"ky_syu_kb" => "6"
-	// 	);
-	// 	$this->assertEquals($arr, $ValueUserSub);
-	// }
-
-	// public function testLoginTFP()
-	// {
-	// 	$_POST["typePage"] = "saag";
-	// 	$_POST["id"] = "10101010";
-	// 	$_POST["pass"] = "11111";
-	// 	$template = "index";
-	// 	$login = new LoginController("");
-	// 	$result = $login->loginAction();
-
-	// 	$err = "";
-	// 	print_r($result);
-	// 	// $this->assertEquals($arr, $ValueUserSub);
-	// }
-
 	public function testABC()
 	{
 		// $send = send_mail_PHPMailer("nguyentrungquan65@gmail.com", "Subject", "Body", "khanhvandinhkhanh1@gmail.com");

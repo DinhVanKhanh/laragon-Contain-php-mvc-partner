@@ -34,7 +34,7 @@ if (checkLogin($typePage)) : ?>
 			<a class="menu" href="/partner/saag/member/faq.php" target="_blank" rel="noopener noreferrer">製品Ｑ＆Ａ</a>
 			<a class="menu" href="/partner/saag/member/solution.php">王シリーズ連動製品</a>
 			<a class="menu" href="javascript:PageJump('login_jhsn');">助成金補助金診断ナビ for SAAG</a>
-			<a class="menu" href="/partner/saag/member/keihi-bank.php">経費Bankパートナー for SAAG</a>
+			<a class="menu" href="/partner/saag/member/keihi-bank.php">経費BANKパートナー for SAAG</a>
 			<a class="menu" href="/partner/saag/member/seminar.php">ビジネスクラスセミナー for SAAG</a>
 			<a class="menu" href="/partner/saag/member/mag.php">メールマガジン バックナンバー</a>
 			<a class="menu" href="javascript:OpenWinForm('/partner/saag/member/form')">「SAAG検索」情報登録・変更</a>

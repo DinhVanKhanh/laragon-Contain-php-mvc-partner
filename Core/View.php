@@ -1,9 +1,10 @@
 <?php
 
 namespace Core;
-// require_once __DIR__ . "/../vendor/twig/twig/src/Loader/FilesystemLoader.php";
-// require_once __DIR__ . "/../vendor/twig/twig/src/Environment.php";
-
+// 2023/04 KhanhDinh - Change for PHP8 [start]	
+require_once __DIR__ . "/../vendor/twig/twig/src/Loader/FilesystemLoader.php";
+require_once __DIR__ . "/../vendor/twig/twig/src/Environment.php";
+// 2023/04 KhanhDinh - Change for PHP8 [end]	
 
 /**
  * View

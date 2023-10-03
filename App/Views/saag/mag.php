@@ -55,7 +55,8 @@ global $SORIMACHI_HOME_SSL;
 
         <!-- メールマガジンバックナンバー（パートナー向） -->
         <!-- <FORM action="<?//= htmlspecialchars("https://info.sorimachi.co.jp/mag/"); ?>" name="mag_partner" method="post" target="_blank"> -->
-        <FORM action="<?= htmlspecialchars("https://info.hp-sorimachi.apn.mym.sorimachi.biz/mag/"); ?>" name="mag_partner" method="post" target="_blank">
+        <!-- <FORM action="<?= htmlspecialchars("https://info.hp-sorimachi.apn.mym.sorimachi.biz/mag/"); ?>" name="mag_partner" method="post" target="_blank"> -->
+        <FORM action="<?= htmlspecialchars("http://info:6062/mag/"); ?>" name="mag_partner" method="post" target="_blank">
             <input type="hidden" name="mag_user" value="<?= base64_encode(mt_rand(10, 20) . $_SESSION["SAAG-ID"] . mt_rand(10, 20)) ?>">
             <input type="hidden" name="mag_category" value="partner">
             <input type="hidden" name="mag_child" value="saag">
@@ -63,7 +64,8 @@ global $SORIMACHI_HOME_SSL;
 
         <!-- メールマガジンバックナンバー（ユーザー向） -->
         <!-- <FORM action="<?//= htmlspecialchars("https://info.sorimachi.co.jp/mag/"); ?>" name="mag_user_vn" method="post" target="_blank"> -->
-        <FORM action="<?= htmlspecialchars("https://info.hp-sorimachi.apn.mym.sorimachi.biz/mag/"); ?>" name="mag_user_vn" method="post" target="_blank">
+        <!-- <FORM action="<?= htmlspecialchars("https://info.hp-sorimachi.apn.mym.sorimachi.biz/mag/"); ?>" name="mag_user_vn" method="post" target="_blank"> -->
+        <FORM action="<?= htmlspecialchars("http://info:6062/mag/"); ?>" name="mag_user_vn" method="post" target="_blank">
             <input type="hidden" name="mag_user" value="<?= base64_encode(mt_rand(10, 20) . $_SESSION["SAAG-ID"] . mt_rand(10, 20)) ?>">
             <input type="hidden" name="mag_category" value="user">
             <input type="hidden" name="mag_child" value="saag">

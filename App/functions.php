@@ -10,8 +10,10 @@ function headerHomePage($typePage, $template)
 	// $template = $page["template"];
 
 	$title = "[ お問合せ先 ] ソリマチパートナー事務局";
-	$tel = "03-3446-1311";
-	$fax = "03-5475-5339";
+	$tel = "03-6773-7530";
+	$fax = "03-6685-4470";
+	//$tel = "03-3446-1311";
+	//$fax = "03-5475-5339";
 
 	$logo = "";
 	switch ($typePage) {

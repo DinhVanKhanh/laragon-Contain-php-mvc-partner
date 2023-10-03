@@ -1,0 +1,1 @@
+{"version":1,"defects":{"CalculatorTest::testSendMail2":4,"Warning":6,"APITest::testReqHis":4,"tests\\InstructorTest::testInstructor":4},"times":{"CalculatorTest::testSendMail2":9.194,"Warning":0.033,"APITest::testReqHis":18.116,"tests\\InstructorTest::testInstructor":0.004}}

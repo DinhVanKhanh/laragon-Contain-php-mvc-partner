@@ -105,9 +105,9 @@ global $SORIMACHI_HOME, $SORIMACHI_HOME_SSL;
 
 				<div class="row">
 					<div class="index_ptmida">
-						<h3>経費Bankパートナー for SAAG</h3><a href="/partner/saag/member/keihi-bank.php" class="btn_read_more pc"><button>≫ぺージを見る</button></a>
+						<h3>経費BANKパートナー for SAAG</h3><a href="/partner/saag/member/keihi-bank.php" class="btn_read_more pc"><button>≫ぺージを見る</button></a>
 					</div>
-					<div class="index_pttxt">「会計王」と連動し、経理業務をピンポイントで改善するSaas型の経費精算システム「経費Bank」。顧問先に提案・導入していただくことで、SAAG会員様だけの特典が受けられます。</div>
+					<div class="index_pttxt">「会計王」と連動し、経理業務をピンポイントで改善するSaas型の経費精算システム「経費BANK」。顧問先に提案・導入していただくことで、SAAG会員様だけの特典が受けられます。</div>
 					<a href="/partner/saag/member/keihi-bank.php" class="btn_read_more sp"><button>≫ぺージを見る</button></a>
 				</div>
 

@@ -41,8 +41,8 @@ class TFP extends \Core\Model
 	public static function GetAPIData($api, $json, $request)
 	{
 		$STFSApiAccessURI = $_ENV['STFS_API_ACCESS_URI'] ?? "http://192.168.3.213:80";
-		$STFSApiAccessID = $_ENV['STFS_API_ACCESS_ID'] ?? "hp_server_id";
-		$STFSApiAccessPW = $_ENV['STFS_API_ACCESS_PW'] ?? "hp_server_pass";
+		$STFSApiAccessID = $_ENV['STFS_API_ACCESS_ID'] ?? "test_admin";
+		$STFSApiAccessPW = $_ENV['STFS_API_ACCESS_PW'] ?? "test_pass";
 
 		$port = (strpos($STFSApiAccessURI, ":") !== false) ? explode(":", $STFSApiAccessURI)[1] : "80";
 		$port = (strpos($port, "/") !== false) ? explode("/", $STFSApiAccessURI)[0] : $port;
@@ -69,7 +69,7 @@ class TFP extends \Core\Model
 		curl_close($curl);
 		return ($err) ? "Error #:" . $err : $response;
 	}
-	
+
 	public static function GetListByField($res, &$listData, $field, $parr = "")
 	{
 		if (($field == "error" || $field == "err_msg") &&

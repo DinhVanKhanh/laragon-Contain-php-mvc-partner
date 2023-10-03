@@ -87,10 +87,10 @@ $template; //show from controller
 
 						<?php // if(in_array("2",$_SESSION[$typePage]['instructor']) && !empty($_SESSION[$typePage]['instructor']) ): ?>
 						<tr>
-							<th class="list-table" style="background-image:url(/img/sico_psl22.png); background-repeat:no-repeat; background-size:50px 50px; background-position: 10px center; padding-left:70px;">給料王22<br><span style="font-weight:normal; font-size:80%;">対象認定タイトル：給料王</span></th>
-							<td nowrap class="list-table list-table-600">2022/11/16</td>
-							<td nowrap class="list-table list-table-600-3" style="font-size:85%;">psl22dl.exe</td>
-							<td nowrap class="list-table list-table-600">exeファイル<br>(570MB)</td>
+							<th class="list-table" style="background-image:url(/img/sico_psl23.png); background-repeat:no-repeat; background-size:50px 50px; background-position: 10px center; padding-left:70px;">給料王23<br><span style="font-weight:normal; font-size:80%;">対象認定タイトル：給料王</span></th>
+							<td nowrap class="list-table list-table-600">2023/11/xx</td>
+							<td nowrap class="list-table list-table-600-3" style="font-size:85%;">psl23dl.exe</td>
+							<td nowrap class="list-table list-table-600">exeファイル<br>(xxx MB)</td>
 							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('psl')"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<?php // endif; ?>
@@ -128,16 +128,15 @@ $template; //show from controller
 						</tr>
 						<tr>
 							<th class="list-table">SOI 認定試験・対策セミナー申込書</th>
-							<td nowrap class="list-table list-table-600">2021/03/22</td>
+							<td nowrap class="list-table list-table-600">2023/09/26</td>
 							<td nowrap class="list-table list-table-600-3">soi_appl.pdf</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/apply/soi_appl.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table">SOUP規約
-								<!-- <span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">&ensp;NEW!&ensp;</span>-->
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">&ensp;NEW!&ensp;</span><br>-->SOUP規約
 								</td>
-							<td nowrap class="list-table list-table-600">2013/05/01</td>
+							<td nowrap class="list-table list-table-600">2022/12/06</td>
 							<td nowrap class="list-table list-table-600-3">soup_kiyaku.pdf</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/soup/download_files/soup_kiyaku.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
@@ -159,41 +158,30 @@ $template; //show from controller
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/soup/download_files/useware21-01_price.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table">レスキュー王ホームページ用申込書
-								<!-- <span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">&ensp;NEW!&ensp;</span>-->
-								</td>
-							<td nowrap class="list-table list-table-600">2013/05/01</td>
-							<td nowrap class="list-table list-table-600-3">rescue_201305.pdf</td>
-							<td nowrap class="list-table list-table-600">PDF</td>
-							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/soup/download_files/rescue_201305.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
-						</tr>
-						<tr>
 							<th class="list-table">レスキュー王終了報告書
 								<!-- <span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">&ensp;NEW!&ensp;</span>-->
 								</td>
-							<td nowrap class="list-table list-table-600">2012/02/08</td>
+							<td nowrap class="list-table list-table-600">2023/09/26</td>
 							<td nowrap class="list-table list-table-600-3">rescue_shuryou.pdf</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/soup/download_files/rescue_shuryou.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
+<!--
 						<tr>
-							<th class="list-table">セミナー日程申請書
-								<!-- <span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">&ensp;NEW!&ensp;</span>-->
-								</td>
+							<th class="list-table">セミナー日程申請書</th>
 							<td nowrap class="list-table list-table-600">2012/02/08</td>
 							<td nowrap class="list-table list-table-600-3" style="font-size:85%;">seminar_nittei_shinsei.xls</td>
 							<td nowrap class="list-table list-table-600">XLS</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/soup/download_files/seminar_nittei_shinsei.xls" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table">セミナー申込書
-								<!-- <span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">&ensp;NEW!&ensp;</span>-->
-								</td>
+							<th class="list-table">セミナー申込書</th>
 							<td nowrap class="list-table list-table-600">2013/05/01</td>
 							<td nowrap class="list-table list-table-600-3">regular_seminar.pdf</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/apply/regular_seminar.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
+-->
 					</table>
 				</div>
 
@@ -275,14 +263,14 @@ $template; //show from controller
 							<th nowrap class="list-table-title">Download</th>
 						</tr>
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span><br> 最新製品 レベルアップ項目書</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span><br> -->最新製品 レベルアップ項目書</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600-3">oh22-01sr_point.zip</td>
 							<td nowrap class="list-table list-table-600">ZIP<br>（PDF）</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>partner/soup/download_files/oh22-01sr_point.zip" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> 最新製品 各種画像</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> -->最新製品 各種画像</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600-3">oh22-01sr_images.zip</td>
 							<td nowrap class="list-table list-table-600">ZIP</td>
@@ -313,14 +301,14 @@ $template; //show from controller
 						</tr>
 
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「会計王22」</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->製品カタログ「会計王22」</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/acc_apr22.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「みんなの青色申告22」</th>
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->製品カタログ「みんなの青色申告22」</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/accper22.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
@@ -332,23 +320,15 @@ $template; //show from controller
 							<td nowrap class="list-table list-table-600">PDF</td>
 							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/acn21.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
-<!--
 						<tr>
-							<th class="list-table">製品カタログ「会計王20 介護事業所スタイル」</th>
-							<td nowrap class="list-table list-table-600">2019/09/02</td>
+							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「給料王23」</th>
+							<td nowrap class="list-table list-table-600">2023/11/xx</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
-							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/acccar20.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
-						</tr>
--->
-						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「給料王22」</th>
-							<td nowrap class="list-table list-table-600">2022/11/24</td>
-							<td nowrap class="list-table list-table-600">PDF</td>
-							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/psl22.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
+							<td nowrap class="list-table"><a href="<?= $SORIMACHI_HOME_SSL ?>files_pdf/brochure/psl23.pdf" target="_blank"><img src="/assets/images/year/2019/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 
 						<tr>
-							<th class="list-table"><span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>製品カタログ「販売王22／販売王22 販売・仕入・在庫」
+							<th class="list-table"><!--<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif;">NEW!</span> <br>-->製品カタログ「販売王22／販売王22 販売・仕入・在庫」
 							</th>
 							<td nowrap class="list-table list-table-600">2022/11/24</td>
 							<td nowrap class="list-table list-table-600">PDF</td>
@@ -441,21 +421,28 @@ $template; //show from controller
 							<th class="list-table">
 								<?php
 								$print = "";
-								if (date("Y/m/d") < "2022/07/01") {
+								if (date("Y/m/d") < "2023/04/01") {
 									$print = '&nbsp;<span style="background-color:#FF3300; color:#FFFFFF; font:bold 100%/110% verdana,sans-serif">&ensp;NEW!&ensp;</span><br>';
 								}
 								echo $print;
 								?>
-								「みんなの確定申告〈令和3年分申告用〉」<br>Ver.21.00.00
+								「みんなの確定申告〈令和4年分申告用〉」<br>Ver.22.00.00
 							</th>
-							<td nowrap class="list-table list-table-600">2022/01/24</td>
-							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('kakutei2021')"><img src="/assets/images/year/2020/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
+							<td nowrap class="list-table list-table-600">2023/01/23</td>
+							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('kakutei2022')"><img src="/assets/images/year/2020/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
 						<tr>
-							<th class="list-table"><!--<?php echo $print ?>-->「みんなの電子申告〈令和3年分 e-Tax連携オプション〉」</th>
+							<th class="list-table"><?php echo $print ?>「みんなの電子申告〈令和4年分 e-Tax連携オプション〉」</th>
+							<td nowrap class="list-table list-table-600">2023/01/27</td>
+							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('etax2022')"><img src="/assets/images/year/2020/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
+						</tr>
+<!--
+						<tr>
+							<th class="list-table">「みんなの電子申告〈令和3年分 e-Tax連携オプション〉」</th>
 							<td nowrap class="list-table list-table-600">2022/01/27</td>
 							<td nowrap class="list-table"><a href="javascript:;" onclick="PageJump('etax2021')"><img src="/assets/images/year/2020/01/dl_03_pdf.png" alt="ダウンロード" border="0"></a></td>
 						</tr>
+-->
 					</table>
 				</div>
 			</section>
@@ -471,7 +458,7 @@ $template; //show from controller
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/accnet22_00/" name="accnet" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['soup']['login'] ?>" /></form>
 
 		<!-- 給料王ダウンロードリンク処理  -->
-		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/psl22_00/" name="psl" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['soup']['login'] ?>" /></form>
+		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/psl23_00/" name="psl" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['soup']['login'] ?>" /></form>
 
 		<!-- 販売王ダウンロードリンク処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/download/sal22_00/" name="sal" method="post" target="_blank"><input type="hidden" name="l_id" value="<?= $_SESSION['soup']['login'] ?>" /></form>
@@ -488,17 +475,18 @@ $template; //show from controller
 		<!-- eTaxOP2022(R4)ダウンロード処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/etax_prtn_s/2022/" name="etax2022" method="post" target="_blank"><input type="hidden" name="etax2022" value="99"><input type="hidden" name="etax" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
 
+		<!-- みん確2021(R3)ダウンロードリンク処理  -->
+		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/kakutei_prtn_s/2021/" name="kakutei2021" method="post" target="_blank"><input type="hidden" name="kakutei" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
+
+		<!-- eTaxOP2021(R3)ダウンロード処理  -->
+		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/etax_prtn_s/2021/" name="etax2021" method="post" target="_blank"><input type="hidden" name="etax2021" value="99"><input type="hidden" name="etax" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
+
 		<!-- みん確2020(R2)ダウンロードリンク処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/kakutei_prtn_s/2020/" name="kakutei2020" method="post" target="_blank"><input type="hidden" name="kakutei" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
 
 		<!-- eTaxOP2020(R2)ダウンロード処理  -->
 		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/etax_prtn_s/2020/" name="etax2020" method="post" target="_blank"><input type="hidden" name="etax2020" value="99"><input type="hidden" name="etax" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
 
-		<!-- みん確2019(R1)ダウンロードリンク処理 -->
-		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/kakutei_prtn_s/2019/" name="kakutei2019" method="post"><input type="hidden" name="kakutei" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
-
-		<!-- eTaxOP2019(R1)ダウンロード処理 -->
-		<form action="<?= $SERVER_DOWNLOAD_MEMBER ?>/etax_prtn_s/2019/" name="etax2019" method="post" target="_blank"><input type="hidden" name="etax2019" value="99"><input type="hidden" name="etax" value="SOUP"><input type="hidden" name="soup-id" value="<?= $_SESSION['SOUP-ID'] ?>" /></form>
 	</div>
 </div>
 <?php require_once __DIR__ . "/../template/footer/footer.php"; ?>
